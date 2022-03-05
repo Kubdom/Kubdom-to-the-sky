@@ -37,9 +37,8 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.3, ve
 [18:19:42] [main/TRACE] [ThemeLoader] Initializing themes ...
 [18:19:42] [main/ERROR] [FileHandler] Couldn't locate icons for flat: C:\Users\Alexandre\Twitch\Minecraft\Instances\Kubdom%20%20To%20the%20sky\mods\journeymap-1.16.5-5.7.3.jar\assets\journeymap\theme\flat
 [18:19:42] [main/INFO] [ThemeLoader] Preloaded theme textures: 0
-[18:19:42] [main/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r228.38§8ms§r
-[18:21:57] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[18:22:27] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[18:19:42] [main/DEBUG] [JourneymapC[19:47:14] [main/INFO] [JourneymapClient] Mapping halted in C:\Users\sourd\Documents\CurseForge\Instances\Kubdom  To the sky\journeymap\data\mp\offline\minecraft:overworld
+[PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
 [18:22:27] [main/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
 [18:22:28] [main/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Alexandre\Twitch\Minecraft\Instances\Kubdom  To the sky\journeymap\data\sp\New World\waypoints
 [18:22:28] [main/INFO] [JourneymapClient] Mapping started in C:\Users\Alexandre\Twitch\Minecraft\Instances\Kubdom  To the sky\journeymap\data\sp\New World\C:\Users\Alexandre\Twitch\Minecraft\Instances\Kubdom  To the sky\journeymap\data\sp\New World\overworld. Memory: 4889MB total, 2180MB free 

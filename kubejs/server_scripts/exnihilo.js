@@ -139,7 +139,36 @@ onEvent('recipes', event => {
         input: 'minecraft:dirt',
         output: 'immersiveengineering:seed'
       },
-
+      {
+        mesh: 'string',
+        chance: [0.125],
+        input: 'minecraft:gravel',
+        output: 'minecraft:flint'
+      },
+      {
+        mesh: 'flint',
+        chance: [0.15],
+        input: 'minecraft:gravel',
+        output: 'minecraft:flint'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.2],
+        input: 'minecraft:gravel',
+        output: 'minecraft:flint'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.3],
+        input: 'minecraft:gravel',
+        output: 'minecraft:flint'
+      },
+      {
+        mesh: 'flint',
+        chance: [1.0],
+        input: 'minecraft:gravel',
+        output: 'exnihilosequentia:piece_iron'
+      },
     ]
   }
 
@@ -223,36 +252,6 @@ onEvent('recipes', event => {
   data.recipes.forEach((recipe) => {
     exnihilosequentiaSieve(recipe.mesh, recipe.input, recipe.output, recipe.chance)
   })
-  // Gravel
-
-  // Flint
-  event.custom({
-    "type": "exnihilosequentia:sieve",
-    "rolls": [{
-        "chance": 0.125,
-        "mesh": "string"
-      },
-      {
-        "chance": 0.15,
-        "mesh": "flint"
-      },
-      {
-        "chance": 0.2,
-        "mesh": "iron"
-      },
-      {
-        "chance": 0.3,
-        "mesh": "diamond"
-      }
-    ],
-    "input": {
-      "item": "minecraft:gravel"
-    },
-    "result": {
-      "item": "minecraft:flint"
-    }
-  })
-
   // Iron piece
 
   event.custom({
