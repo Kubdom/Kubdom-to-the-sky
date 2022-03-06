@@ -1,0 +1,50 @@
+{
+	id: "6AC65D87C078DB91"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -2.0d
+		width: 7.0d
+		height: 7.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/presets/isles.png"
+		hover: ["<mettre logo du modpack>"]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		title: "Welcome to the sky"
+		x: -1.5d
+		y: 1.5d
+		id: "2F5E43A8C98A9CFF"
+		tasks: [{
+			id: "4A02C38BE2B1EB9B"
+			type: "checkmark"
+			title: "Welcome"
+		}]
+		rewards: [
+			{
+				id: "057F98BC45DAEAC4"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}
+			{
+				id: "26897F6DDDD4185B"
+				type: "item"
+				item: "ftbquests:book"
+			}
+			{
+				id: "67CBBBF9C610AE03"
+				type: "item"
+				item: "cyclic:apple_honey"
+				count: 4
+			}
+		]
+	}]
+}

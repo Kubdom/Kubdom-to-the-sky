@@ -1,0 +1,14 @@
+minecraftinstance.json
+usercache.json
+usernamecache.json
+.curseclient
+/logs
+/local
+/saves
+/resourcepacks
+options.txt
+/journeymap
+/backups
+journeymap/journeymap.log
+journeymap/config/5.7/journeymap.minimap.config
+options.txt
