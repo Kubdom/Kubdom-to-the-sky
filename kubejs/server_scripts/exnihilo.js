@@ -1291,6 +1291,240 @@ onEvent('recipes', event => {
         input: 'exnihilosequentia:dust',
         output: 'minecraft:blaze_powder'
       },
+      {
+        mesh: 'flint',
+        chance: [0.4],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_gold'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.8],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_gold'
+      },
+      {
+        mesh: 'diamond',
+        chance: [1.0],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_gold'
+      },
+      {
+        mesh: 'emerald',
+        chance: [1.0],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_gold'
+      },
+      {
+        mesh: 'netherite',
+        chance: [1.0],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_gold'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.03],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_cobalt'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.06],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_cobalt'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.09],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_cobalt'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.12],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'exnihilosequentia:piece_cobalt'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.02],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:ruby'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.04],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:ruby'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.06],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:ruby'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.1],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:ruby'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.02],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:sapphire'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.04],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:sapphire'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.06],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:sapphire'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.1],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:sapphire'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.02],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:peridot'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.04],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:peridot'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.06],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:peridot'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.1],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'projectred-core:peridot'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.05],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'mysticalagriculture:prosperity_shard'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.1],
+        input: 'exnihilosequentia:crushed_netherrack',
+        output: 'mysticalagriculture:prosperity_shard'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.2],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'mysticalagriculture:prosperity_shard'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.36],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'mysticalagriculture:prosperity_shard'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.52],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'mysticalagriculture:prosperity_shard'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.005],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'draconicevolution:draconium_dust'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.03],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'draconicevolution:draconium_dust'
+      },
+      {
+        mesh: 'diamond',
+        chance: [0.02],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'betterendforge:ender_shard'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.05],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'betterendforge:ender_shard'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.1],
+        input: 'exnihilosequentia:crushed_end_stone',
+        output: 'betterendforge:ender_shard'
+      },
+      {
+        mesh: 'string',
+        chance: [0.1],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:nether_wart'
+      },
+      {
+        mesh: 'flint',
+        chance: [0.3],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
+      {
+        mesh: 'iron',
+        chance: [0.8],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
+      {
+        mesh: 'diamond',
+        chance: [1.0],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
+      {
+        mesh: 'emerald',
+        chance: [1.0],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
+      {
+        mesh: 'emerald',
+        chance: [0.1],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
+      {
+        mesh: 'netherite',
+        chance: [1.0],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
+      {
+        mesh: 'netherite',
+        chance: [0.3],
+        input: 'minecraft:soul_sand',
+        output: 'minecraft:quartz'
+      },
     ]
   }
 
@@ -1376,7 +1610,22 @@ onEvent('recipes', event => {
     exnihilosequentiaSieve(recipe.mesh, recipe.input, recipe.output, recipe.chance)
   })
 
-
+  event.custom({
+    "type": "exnihilosequentia:sieve",
+    "rolls": [
+      {
+        "chance": 0.05,
+        "mesh": "diamond"
+      }
+    ],
+    "input": {
+      "tag": "minecraft:sand"
+    },
+    "result": {
+      "item": 'astralsorcery:aquamarine'
+    },
+    "waterlogged": true
+  })
 
   event.custom({
     "type": "exnihilosequentia:hammer",

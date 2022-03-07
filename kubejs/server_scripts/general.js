@@ -67,4 +67,16 @@ event.shaped('cobblefordays:tier_5', [
 
 
 
+
+// ender pearl with ender shard
+event.shaped('minecraft:ender_pearl', [
+  'SSS',
+  'SSS',
+  'SSS'
+], {
+  S: 'betterendforge:ender_shard'
+})
+
+
+
 })
