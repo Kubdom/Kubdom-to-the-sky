@@ -4,6 +4,8 @@ onEvent('recipes', event => {
             event.remove({id: element})
         } else if (key == 'type') {
             event.remove({ type: element})
+        } else if (key == 'mod') {
+            event.remove({ mod: element})
         }
     }
     let data = [
@@ -27,6 +29,14 @@ onEvent('recipes', event => {
         { id: 'cobblefordays:tier_3'},
         { id: 'cobblefordays:tier_4'},
         { id: 'cobblefordays:tier_5'},
+        { id: 'ironchest:chests/vanilla_iron_chest'},
+        { id: 'ironchest:chests/copper_silver_chest'},
+        { id: 'ironchest:chests/iron_gold_chest'},
+        { id: 'ironchest:chests/silver_diamond_chest'},
+        { id: 'ironchest:upgrades/wood_to_iron_chest_upgrade'},
+        { id: 'ironchest:upgrades/iron_to_gold_chest_upgrade'},
+        { id: 'ironchest:upgrades/copper_to_silver_chest_upgrade'},
+        { mod: 'metalbarrels'},
     ]
     
     for (var i = 0; i < data.length; i++){

@@ -79,4 +79,74 @@ event.shaped('minecraft:ender_pearl', [
 
 
 
+// Wood to copper barrel
+event.shaped('metalbarrels:copper_barrel', [
+  'III',
+  'ICI',
+  'III'
+], {
+  C: '#forge:chests/wooden',
+  I: 'thermal:copper_ingot'
+})
+// Copper to Iron barrel
+event.shaped('metalbarrels:iron_barrel', [
+  'III',
+  'ICI',
+  'III'
+], {
+  C: 'metalbarrels:copper_barrel',
+  I: 'minecraft:iron_ingot'
+})
+// Iron to Silver barrel
+event.shaped('metalbarrels:silver_barrel', [
+  'IGI',
+  'GCG',
+  'IGI'
+], {
+  C: 'metalbarrels:iron_barrel',
+  I: 'thermal:silver_ingot',
+  G: '#forge:glass'
+})
+// Silver to Gold barrel
+event.shaped('metalbarrels:gold_barrel', [
+  'IGI',
+  'GCG',
+  'IGI'
+], {
+  C: 'metalbarrels:silver_barrel',
+  I: 'minecraft:gold_ingot',
+  G: '#forge:glass'
+})
+// Gold to Diamond barrel
+event.shaped('metalbarrels:diamond_barrel', [
+  'GGG',
+  'ICI',
+  'GGG'
+], {
+  C: 'metalbarrels:gold_barrel',
+  I: 'minecraft:diamond',
+  G: '#forge:glass'
+})
+// Diamond to Crystal barrel
+event.shaped('metalbarrels:crystal_barrel', [
+  'GGG',
+  'GCG',
+  'GGG'
+], {
+  C: 'metalbarrels:diamond_barrel',
+  G: '#forge:glass'
+})
+// Diamond to Obsidian barrel
+event.shaped('metalbarrels:obsidian_barrel', [
+  'GGG',
+  'GCG',
+  'GGG'
+], {
+  C: 'metalbarrels:diamond_barrel',
+  G: 'minecraft:obsidian'
+})
+// Obsidian to Netherite barrel
+event.smithing('metalbarrels:netherite_barrel', 'metalbarrels:obsidian_barrel', 'minecraft:netherite_ingot')
+
+
 })
