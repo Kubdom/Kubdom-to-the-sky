@@ -1,0 +1,195 @@
+{
+	id: "7CAC87796DFC538D"
+	group: ""
+	order_index: 3
+	filename: "storage"
+	title: "Miscellaneous"
+	icon: "compactmachines:personal_shrinking_device"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mob Griding util"
+			x: -3.5d
+			y: -3.5d
+			id: "07400ECE791F6600"
+			tasks: [{
+				id: "5A6FC2F64F3A72CA"
+				type: "item"
+				item: "mob_grinding_utils:saw"
+			}]
+		}
+		{
+			title: "Storage drawers"
+			x: -2.0d
+			y: -3.5d
+			id: "5EC3B4CABCA12942"
+			tasks: [{
+				id: "177DD373D21F1D37"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			title: "Mod Woot ?? pas sur de le mettre la"
+			x: -0.5d
+			y: -3.5d
+			id: "4CB5E343A671E0E8"
+			tasks: [{
+				id: "68BA25C9AB5530C8"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			title: "Iron Chest"
+			x: -3.5d
+			y: -5.0d
+			id: "30D6D53EB6B5532D"
+			tasks: [{
+				id: "26CA38D35E09F222"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "Metal Barrel"
+			x: -2.0d
+			y: -5.0d
+			id: "6CAD744470A7A9D3"
+			tasks: [{
+				id: "7FE9354C02705B30"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			id: "7B60EA1FC708E335"
+			tasks: [{
+				id: "31EA6BD3BCE0638A"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "Armor stage"
+			x: -2.0d
+			y: -6.5d
+			id: "0D09437D7E64E436"
+			tasks: [{
+				id: "237A1A3AF328F825"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Pipez"
+			x: -3.5d
+			y: -6.5d
+			id: "4A6A0CDB8719B548"
+			tasks: [{
+				id: "2CA960A5CC2339E0"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			id: "222E2D5C8096B83B"
+			tasks: [{
+				id: "4E73B898F8F9898F"
+				type: "item"
+				item: "compactcrafting:field_projector"
+			}]
+		}
+		{
+			title: "Iron Jetpack"
+			x: 1.0d
+			y: -5.0d
+			id: "641A3E825414967B"
+			tasks: [{
+				id: "6E631075C91327A7"
+				type: "item"
+				item: {
+					id: "simplyjetpacks:jetpack_te4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			id: "6C2FAF5ED33425B4"
+			tasks: [{
+				id: "550D3C394CF85E80"
+				type: "item"
+				item: "botanypots:botany_pot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			id: "57792F110BE60419"
+			tasks: [{
+				id: "163F2E60D61738FD"
+				type: "item"
+				item: {
+					id: "chisel:hitech_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			id: "36D683B9E873DC34"
+			tasks: [{
+				id: "570B296B8C0F60CC"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			id: "5785416814B54FCF"
+			tasks: [{
+				id: "718CFECF207F8CDB"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+		}
+		{
+			title: "Just Another Void Dim"
+			x: -0.5d
+			y: -8.0d
+			id: "57FD741134B4BD8E"
+			tasks: [{
+				id: "5BE000C0F5794603"
+				type: "item"
+				item: "quark:basalt_bricks"
+			}]
+		}
+	]
+}

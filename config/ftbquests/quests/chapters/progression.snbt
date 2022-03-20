@@ -1,0 +1,62 @@
+{
+	id: "437D5CFF29B1F17C"
+	group: ""
+	order_index: 1
+	filename: "progression"
+	title: "Progression"
+	icon: "twilightforest:ore_map"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Starting Quests"
+			icon: "exnihilosequentia:sieve"
+			x: -13.0d
+			y: -3.0d
+			shape: "gear"
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			dependency_requirement: "one_completed"
+			id: "5ECDBAF6B9C0E5A4"
+			tasks: [{
+				id: "0DD859EC3B1A3D77"
+				type: "checkmark"
+				title: "Starting"
+			}]
+		}
+		{
+			icon: "create:large_cogwheel"
+			x: -11.0d
+			y: -3.0d
+			shape: "gear"
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "0235106EBB74A35A"
+			tasks: [{
+				id: "560D4ABB9338E0AB"
+				type: "checkmark"
+				title: "Create Quests"
+			}]
+		}
+		{
+			icon: "compactmachines:personal_shrinking_device"
+			x: -12.0d
+			y: -3.0d
+			shape: "gear"
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "15601D0BF3D47A46"
+			tasks: [{
+				id: "347AAD37B079CE46"
+				type: "checkmark"
+				title: "Miscellaneous Quests"
+			}]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	id: "2C95EEC892E31A30"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "minecraft:totem_of_undying"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Logo"
+			x: 1.5d
+			y: -3.0d
+			id: "3960B377B39644E6"
+			tasks: [{
+				id: "536EA9F76DFCC171"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			shape: "gear"
+			id: "3CC7915C55B7A453"
+			tasks: [{
+				id: "69A61966599EBD33"
+				type: "checkmark"
+				title: "FTB TEAM"
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: 3.5d
+			y: -1.0d
+			id: "1DAE815F40B7C0D7"
+			tasks: [{
+				id: "60EAC4C499E014EB"
+				type: "checkmark"
+				title: "Quests"
+			}]
+		}
+	]
+}

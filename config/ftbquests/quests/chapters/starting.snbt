@@ -1,0 +1,659 @@
+{
+	id: "016155D7059AC545"
+	group: ""
+	order_index: 2
+	filename: "starting"
+	title: "Starting"
+	icon: "exnihilosequentia:sieve"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -8.0d
+			shape: "circle"
+			dependencies: ["5ECDBAF6B9C0E5A4"]
+			id: "45FD0E5391EA9DFA"
+			tasks: [{
+				id: "40A0403199DF4266"
+				type: "checkmark"
+				title: "Starting quests"
+			}]
+			rewards: [
+				{
+					id: "17F6814583634C4A"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 5
+				}
+				{
+					id: "0B87959B1A187779"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "0353C3EF432B014A"
+					type: "item"
+					item: "cyclic:apple_honey"
+					count: 4
+				}
+				{
+					id: "786B59F95A372098"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			dependencies: ["45FD0E5391EA9DFA"]
+			id: "59A2856FBE9668F9"
+			tasks: [{
+				id: "5AF77DC7CC4ED0D8"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 64L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			dependencies: ["59A2856FBE9668F9"]
+			id: "294E171319163503"
+			tasks: [{
+				id: "561E1256655ADFE1"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["294E171319163503"]
+			id: "378166F2F4039534"
+			tasks: [{
+				id: "4C8662C83BD65F66"
+				type: "item"
+				item: "exnihilosequentia:sieve"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["378166F2F4039534"]
+			id: "6B028201F09B95A5"
+			tasks: [{
+				id: "296B497A2AB224AB"
+				type: "item"
+				item: "exnihilosequentia:mesh_string"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["6B028201F09B95A5"]
+			id: "59972B64B921A11C"
+			tasks: [{
+				id: "0F085AD6C400ED2B"
+				type: "item"
+				item: "exnihilosequentia:mesh_flint"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["59972B64B921A11C"]
+			id: "4AF3640D79B9B11F"
+			tasks: [{
+				id: "70203A371A780D37"
+				type: "item"
+				item: "exnihilosequentia:mesh_iron"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["4AF3640D79B9B11F"]
+			id: "01C75AD110A3AEBA"
+			tasks: [{
+				id: "01A6ECD6F9D95AB8"
+				type: "item"
+				item: "exnihilosequentia:mesh_diamond"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			dependencies: ["01C75AD110A3AEBA"]
+			dependency_requirement: "one_completed"
+			id: "45D1853701C8461B"
+			tasks: [{
+				id: "193B39F06A0101D1"
+				type: "item"
+				item: "exnihilosequentia:mesh_emerald"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["45D1853701C8461B"]
+			id: "1ECF8BBEAA3D1B3F"
+			tasks: [{
+				id: "76BFD00A7E258D24"
+				type: "item"
+				item: "exnihilosequentia:mesh_netherite"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			dependencies: ["378166F2F4039534"]
+			id: "609C9531FC283865"
+			tasks: [{
+				id: "4B536FFB900209DF"
+				type: "item"
+				item: "excompressum:auto_sieve"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["294E171319163503"]
+			id: "0A9878F9B1017C97"
+			tasks: [{
+				id: "6E8EAEAB72927F5A"
+				type: "item"
+				item: "excompressum:oak_heavy_sieve"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["0A9878F9B1017C97"]
+			id: "2B3669C4745C6978"
+			tasks: [{
+				id: "69FE28EC6786D512"
+				type: "item"
+				item: "excompressum:auto_heavy_sieve"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["59A2856FBE9668F9"]
+			id: "7C9A990E7E3C9414"
+			tasks: [{
+				id: "633A496B42B335E8"
+				type: "item"
+				item: "exnihilosequentia:crucible_wood"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["7C9A990E7E3C9414"]
+			id: "60DC88CE92F21923"
+			tasks: [{
+				id: "046937EF78E92373"
+				type: "item"
+				item: "exnihilosequentia:crucible_fired"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["60DC88CE92F21923"]
+			id: "555FC581016F2EF9"
+			tasks: [{
+				id: "27CE564E646A3047"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["555FC581016F2EF9"]
+			id: "566D88CC818998CA"
+			tasks: [{
+				id: "10795C02BC119D6B"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["566D88CC818998CA"]
+			id: "76372920A7CD0EBF"
+			tasks: [{
+				id: "51B7FF147D74401C"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["76372920A7CD0EBF"]
+			id: "36E47A88EB4F236E"
+			tasks: [{
+				id: "15B4BCE3D1985CC9"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["36E47A88EB4F236E"]
+			id: "07F1814F74FD7879"
+			tasks: [{
+				id: "7D55DE7C0D9C7AC7"
+				type: "item"
+				item: "cobblefordays:tier_5"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["59A2856FBE9668F9"]
+			id: "0D6FC5B04BFDCA5D"
+			tasks: [{
+				id: "21EEDC79D54162DC"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["0D6FC5B04BFDCA5D"]
+			id: "5B4B615D2C3E77A5"
+			tasks: [
+				{
+					id: "2C60DBE014B7C459"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "47A75E09362CE310"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:stripped_oak_wood"
+						}
+					}
+				}
+				{
+					id: "7A8264DDF566AB2B"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "4C1D4DD5E732FAAB"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["5B4B615D2C3E77A5"]
+			id: "6E299E1078B521BF"
+			tasks: [{
+				id: "211A7A1B0690C505"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["6E299E1078B521BF"]
+			id: "79D68E74261A701B"
+			tasks: [
+				{
+					id: "4AD7A8DEB1B66BA8"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "5C897C117A35D3B7"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "47F15E00F6312771"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "1983945F72AD6914"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "6FD366731F86BE8A"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["79D68E74261A701B"]
+			id: "07998888AB6121DA"
+			tasks: [
+				{
+					id: "379639CDDFDFBFBD"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "27107302DDD59D1C"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "1A59EE418FA7A665"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -8.0d
+			dependencies: ["45FD0E5391EA9DFA"]
+			id: "574B87E2B76B3BE5"
+			tasks: [{
+				id: "466D34670441C768"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+				consume_items: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.0d
+			dependencies: ["574B87E2B76B3BE5"]
+			id: "55439DBF6C1CDAF4"
+			tasks: [{
+				id: "1C825EA6C97950BE"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["55439DBF6C1CDAF4"]
+			id: "4FBE7B0982DB9263"
+			tasks: [{
+				id: "7C5EB0E13E60AE2A"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			dependencies: ["4FBE7B0982DB9263"]
+			id: "2C8AA9879BCAC139"
+			tasks: [{
+				id: "1930ECCD42F48A10"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			dependencies: ["2C8AA9879BCAC139"]
+			id: "487AD53F7F022D29"
+			tasks: [{
+				id: "1B6899154BE9B570"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["487AD53F7F022D29"]
+			id: "3F1C68AE6277E051"
+			tasks: [{
+				id: "1964ACF39B445215"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: ["3F1C68AE6277E051"]
+			id: "079C0E25344224FE"
+			tasks: [{
+				id: "51AC42BA23A46D46"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["3F1C68AE6277E051"]
+			id: "0DBCC7435B917A11"
+			tasks: [{
+				id: "50BFA076CF714ABF"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: [
+				"079C0E25344224FE"
+				"0DBCC7435B917A11"
+			]
+			id: "2248E38254FFC800"
+			tasks: [{
+				id: "02AD4772843DA43C"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			dependencies: ["2248E38254FFC800"]
+			id: "7202D9650BABC094"
+			tasks: [{
+				id: "0C15F00784F0EAA8"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+		}
+		{
+			title: "The Nether"
+			x: 2.0d
+			y: -5.0d
+			shape: "square"
+			description: ["Make a Nether portal with obsidian block"]
+			dependencies: ["4EA81AA1F38B5882"]
+			id: "5DE079C09F0A701D"
+			tasks: [{
+				id: "2C9DE5C42A584160"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			description: [
+				"{image:#FFFFFF width:100 height:100 align:1}"
+				"A TRADUIRE : Pour fabriquer de l'obsi, mettez de la lave dans un stone barrel en dessous d'un bloc d'eau"
+			]
+			dependencies: ["60DC88CE92F21923"]
+			id: "4EA81AA1F38B5882"
+			tasks: [{
+				id: "320D07D7E848F91B"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+				consume_items: false
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["5DE079C09F0A701D"]
+			id: "707B0C6E26FAA998"
+			tasks: [{
+				id: "068230295E820DE2"
+				type: "item"
+				item: "exnihilosequentia:end_cake"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["707B0C6E26FAA998"]
+			id: "66AFBD4B785E2AB7"
+			tasks: [{
+				id: "1377AC056C02A13E"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["5DE079C09F0A701D"]
+			id: "3E5FD14266415675"
+			tasks: [{
+				id: "304B21F42010BB0E"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+				count: 3L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["3E5FD14266415675"]
+			id: "46549C038DCF145F"
+			tasks: [{
+				id: "53F7A889E34CF7CB"
+				type: "kill"
+				icon: "mysticalagradditions:withering_soul"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["66AFBD4B785E2AB7"]
+			id: "66C2AE14DCA23A56"
+			tasks: [{
+				id: "7CECE5032C68774F"
+				type: "advancement"
+				title: "The End ... Again ?"
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			dependencies: ["59A2856FBE9668F9"]
+			id: "15E1983CF2C61455"
+			tasks: [
+				{
+					id: "617D433EF50B2805"
+					type: "kill"
+					title: "Zombie Apocalyps"
+					entity: "minecraft:zombie"
+					value: 10L
+				}
+				{
+					id: "0145B84A7E33BDDE"
+					type: "kill"
+					title: "The Dead Rise"
+					entity: "minecraft:skeleton"
+					value: 7L
+				}
+				{
+					id: "49AF2B6A21DB3CAD"
+					type: "kill"
+					title: "BIM BAM BOUM !!!"
+					entity: "minecraft:creeper"
+					value: 4L
+				}
+				{
+					id: "21081F7AF4AD4000"
+					type: "kill"
+					title: "Spiderman is comming"
+					entity: "minecraft:spider"
+					value: 5L
+				}
+				{
+					id: "683F9FFE227A54D4"
+					type: "kill"
+					title: "The Slender"
+					entity: "minecraft:enderman"
+					value: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3B4702EBDC71AB13"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 5
+				}
+				{
+					id: "78243ED70549DCB9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -8.0d
+			dependencies: ["7202D9650BABC094"]
+			id: "12E71EA93AE495DA"
+			tasks: [{
+				id: "0725C55B82166DFC"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+		}
+	]
+}
