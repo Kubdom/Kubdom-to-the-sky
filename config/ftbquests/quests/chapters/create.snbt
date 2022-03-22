@@ -5,7 +5,7 @@
 	filename: "create"
 	title: "Create"
 	icon: "create:large_cogwheel"
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -31,6 +31,93 @@
 				id: "582B3A725C9CA96A"
 				type: "item"
 				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			shape: "rsquare"
+			dependencies: ["746E999B623BC849"]
+			id: "493B17515EBAC3AE"
+			tasks: [
+				{
+					id: "45C0D2DF659A49C5"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "4B6C159A17637E2C"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "25EDDA132551D8C9"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+			rewards: [{
+				id: "75475E0F2A76B9C4"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["493B17515EBAC3AE"]
+			id: "5ADCA5B315096CBE"
+			tasks: [
+				{
+					id: "3D5917FC75798B7B"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "52D5B13DC6F48459"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [
+				{
+					id: "2DE3BAB15281AAD8"
+					type: "item"
+					item: "create:gearbox"
+					count: 2
+				}
+				{
+					id: "39175B296DE9CC7F"
+					type: "item"
+					item: "create:vertical_gearbox"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["5ADCA5B315096CBE"]
+			id: "5795A05D76AECCEF"
+			tasks: [{
+				id: "57F5170C5E170D75"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: [
+				"746E999B623BC849"
+				"493B17515EBAC3AE"
+			]
+			id: "4DB4E43ADA29054F"
+			tasks: [{
+				id: "4DE690122250954C"
+				type: "item"
+				item: "create:encased_fan"
 			}]
 		}
 	]
