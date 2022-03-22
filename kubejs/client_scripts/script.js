@@ -2,14 +2,13 @@
 
 console.info('Hello, World! (You will see this line every time client resources reload)')
 
-console.info('Hello, World! (You will see this line every time client resources reload)')
-
 onEvent('jei.hide.items', event => {
 	event.hide([
 		/appliedenergistics2:facade/,
 		/tconstruct:crafting_station/,
 		/tconstruct:tinker_station/,
 		/tconstruct:part_builder/,
+		/metalbarrels:iron_to_silver/
 	])
 })
 
