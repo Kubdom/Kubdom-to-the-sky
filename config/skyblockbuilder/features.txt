@@ -346,6 +346,7 @@ pamhc2trees:pinenut_worldgen
 mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
+pneumaticcraft:oil_lake
 rftoolsdim:rftfeature
 mysticalagriculture:soulstone
 zerocore:mod_ores

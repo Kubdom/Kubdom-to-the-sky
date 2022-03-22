@@ -37,11 +37,14 @@ onEvent('recipes', event => {
         { id: 'ironchest:upgrades/iron_to_gold_chest_upgrade'},
         { id: 'ironchest:upgrades/copper_to_silver_chest_upgrade'},
         { mod: 'metalbarrels'},
+        { id: 'bloodmagic:blood_altar'},
+        { id: 'bloodmagic:alchemy_table'},
+        { id: 'bloodmagic:altar/slate'},
     ]
     
     for (var i = 0; i < data.length; i++){
         for (var key in data[i]) {
           removeCraft(data[i][key], key)
       }
-    }    
+    }
 })
