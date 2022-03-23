@@ -44,7 +44,8 @@ onEvent('recipes', event => {
         { id: 'bloodmagic:array/living_boots'},
         { id: 'bloodmagic:array/living_helmet'},
         { id: 'bloodmagic:array/living_plate'},
-        { id: 'bloodmagic:array/living_leggings'},
+        { id: 'bloodmagic:array/living_leggings' },
+        { id: 'immersiveengineering:squeezer/graphite_dust'},
     ]
     
     for (var i = 0; i < data.length; i++){
