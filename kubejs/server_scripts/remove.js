@@ -40,6 +40,7 @@ onEvent('recipes', event => {
         { id: 'bloodmagic:blood_altar'},
         { id: 'bloodmagic:alchemy_table'},
         { id: 'bloodmagic:altar/slate'},
+        { id: 'immersiveengineering:squeezer/graphite_dust'},
     ]
     
     for (var i = 0; i < data.length; i++){

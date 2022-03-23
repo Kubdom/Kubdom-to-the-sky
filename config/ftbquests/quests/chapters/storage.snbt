@@ -31,17 +31,6 @@
 			}]
 		}
 		{
-			title: "Mod Woot ?? pas sur de le mettre la"
-			x: -0.5d
-			y: -3.5d
-			id: "4CB5E343A671E0E8"
-			tasks: [{
-				id: "68BA25C9AB5530C8"
-				type: "item"
-				item: "minecraft:stone"
-			}]
-		}
-		{
 			title: "Iron Chest"
 			x: -3.5d
 			y: -5.0d

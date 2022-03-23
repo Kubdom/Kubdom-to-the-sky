@@ -59,7 +59,7 @@ onEvent('recipes', event => {
         mesh: 'string',
         chance: [0.05],
         input: 'minecraft:dirt',
-        output: 'exnihilosequentia:seed_dark_oak'
+        output: 'exnihilosequentia:seed_darkoak'
       },
       {
         mesh: 'string',
@@ -95,12 +95,6 @@ onEvent('recipes', event => {
         mesh: 'string',
         chance: [0.05],
         input: 'minecraft:dirt',
-        output: 'exnihilosequentia:seed_berry'
-      },
-      {
-        mesh: 'string',
-        chance: [0.05],
-        input: 'minecraft:dirt',
         output: 'exnihilosequentia:seed_kelp'
       },
       {
@@ -113,7 +107,7 @@ onEvent('recipes', event => {
         mesh: 'string',
         chance: [0.05],
         input: 'minecraft:dirt',
-        output: 'exnihilosequentia:ancient_spore'
+        output: 'exnihilosequentia:ancient_spores'
       },
       {
         mesh: 'string',
@@ -125,13 +119,13 @@ onEvent('recipes', event => {
         mesh: 'string',
         chance: [0.05],
         input: 'minecraft:dirt',
-        output: 'exnihilosequentia:melon_seeds'
+        output: 'minecraft:melon_seeds'
       },
       {
         mesh: 'string',
         chance: [0.05],
         input: 'minecraft:dirt',
-        output: 'exnihilosequentia:pumpkin_seeds'
+        output: 'minecraft:pumpkin_seeds'
       },
       {
         mesh: 'string',
@@ -509,13 +503,13 @@ onEvent('recipes', event => {
         mesh: 'flint',
         chance: [0.03],
         input: 'minecraft:sand',
-        output: 'minecraft:minecraft:cocoa_beans'
+        output: 'minecraft:cocoa_beans'
       },
       {
         mesh: 'iron',
         chance: [0.06],
         input: 'minecraft:sand',
-        output: 'minecraft:minecraft:cocoa_beans'
+        output: 'minecraft:cocoa_beans'
       },
       {
         mesh: 'flint',

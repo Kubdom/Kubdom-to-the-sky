@@ -1,0 +1,210 @@
+{
+	id: "2A5635863E13CD43"
+	group: ""
+	order_index: 5
+	filename: "immersive"
+	title: "Immersive"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -7.5d
+			shape: "hexagon"
+			dependencies: ["66BD5B39369DA96A"]
+			size: 1.5d
+			id: "60488FE65FC488FC"
+			tasks: [{
+				id: "6A7CE697B21AB390"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+		}
+		{
+			title: "Coke Oven"
+			icon: "immersiveengineering:coke_oven"
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["50E51AE1CF754D11"]
+			id: "752F57253964BA61"
+			tasks: [{
+				id: "4BE0B82989ACF612"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["752F57253964BA61"]
+			id: "129B350D035E12FF"
+			tasks: [{
+				id: "27D66934105199BF"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["129B350D035E12FF"]
+			id: "3C1988F5CAA8130C"
+			tasks: [{
+				id: "2F8289DDF8F82DE7"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["3C1988F5CAA8130C"]
+			id: "3005CF81267F4219"
+			tasks: [{
+				id: "5FC31E6EF4C62BB6"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["3005CF81267F4219"]
+			id: "69CD15FF2C2BB415"
+			tasks: [{
+				id: "335CED8734CB127E"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.0d
+			dependencies: ["69CD15FF2C2BB415"]
+			id: "0D35EA4BD94CB3F8"
+			tasks: [
+				{
+					id: "4157A102930E894F"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "38A96CAAB5BA1218"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "6DAC2803A2AF2BA2"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "166A9ECC6C5A9066"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+			]
+		}
+		{
+			title: "Blast Furnace"
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["50E51AE1CF754D11"]
+			id: "27B1C5F34B875364"
+			tasks: [{
+				id: "6C3252D53F439CA9"
+				type: "item"
+				item: "immersiveengineering:blast_furnace"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["60488FE65FC488FC"]
+			id: "50E51AE1CF754D11"
+			tasks: [{
+				id: "4FCC0F8CA5F7333B"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["129B350D035E12FF"]
+			id: "616EEC5A7524B158"
+			tasks: [{
+				id: "61D7255C74C23D34"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: [
+				"129B350D035E12FF"
+				"616EEC5A7524B158"
+			]
+			id: "55B73CC0265C9641"
+			tasks: [{
+				id: "338B6948037306C9"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: [
+				"616EEC5A7524B158"
+				"55B73CC0265C9641"
+			]
+			id: "5206D64F63B8446E"
+			tasks: [
+				{
+					id: "14AEC17A54C16377"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+				{
+					id: "3FF712E575FF5998"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["129B350D035E12FF"]
+			id: "3A61D36688C13F3D"
+			tasks: [{
+				id: "541EE4068ABDC4B3"
+				type: "item"
+				item: "immersiveengineering:treated_post"
+			}]
+		}
+	]
+}
