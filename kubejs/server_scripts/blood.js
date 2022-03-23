@@ -1,4 +1,5 @@
 onEvent('recipes', event => {
+
     function altar(input, output, level, syphon, consumption, drainRate) {
         event.custom({
             "type": "bloodmagic:altar",
@@ -25,7 +26,7 @@ onEvent('recipes', event => {
         W: 'eidolon:worktable',
         S: 'eidolon:stone_altar'
     })
-    event.shaped('1x bloodmagic:alchemytable', [
+    event.shaped('bloodmagic:alchemytable', [
         'LAL',
         'PBP',
         'PBP'
@@ -38,6 +39,6 @@ onEvent('recipes', event => {
 
 
     altar('kubejs:alpha_ingot', 'bloodmagic:blankslate', 0, 1000, 5, 5)
-
+    altar('eidolon:arcane_gold_ingot', 'kubejs:alpha_ingot', 0, 1000, 5, 5)
 
 });
