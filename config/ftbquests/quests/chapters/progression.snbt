@@ -5,7 +5,7 @@
 	filename: "progression"
 	title: "Progression"
 	icon: "twilightforest:ore_map"
-	default_quest_shape: ""
+	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	quests: [
 		{
@@ -56,6 +56,27 @@
 				id: "347AAD37B079CE46"
 				type: "checkmark"
 				title: "Miscellaneous Quests"
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -10.0d
+			y: -3.0d
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "66BD5B39369DA96A"
+			tasks: [{
+				id: "2E5E5F20650581AA"
+				type: "checkmark"
+				title: "Immersive"
 			}]
 		}
 	]

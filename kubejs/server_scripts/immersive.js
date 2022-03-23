@@ -19,12 +19,19 @@ onEvent('recipes', event => {
       "amount": 8
     },
     "input1": {
-      "tag": "forge:ethanol",
+      "tag": "forge:crude_oil",
       "amount": 8
     },
     "energy": 80
   })
 
+
+
+
+
+
+  
+// REVOIR LE FLUID DU SQUEEZER QUI MORCHE PO !!
 
   event.custom({
     "type": "immersiveengineering:squeezer",
