@@ -1,5 +1,4 @@
 onEvent('recipes', event => {
-
     function altar(input, output, level, syphon, consumption, drainRate) {
         event.custom({
             "type": "bloodmagic:altar",
@@ -16,6 +15,47 @@ onEvent('recipes', event => {
         })
     }
 
+    function alchemyTable(input, output, syphon, ticks, level) {
+        event.custom({
+            "type": "bloodmagic:alchemytable",
+            "input": [{
+                    "tag": input[0]
+                },
+                {
+                    "item": input[1]
+                },
+                {
+                    "tag": input[2]
+                },
+                {
+                    "tag": input[3]
+                }
+            ],
+            "output": {
+                "item": output,
+            },
+            "syphon": syphon,
+            "ticks": ticks,
+            "upgradeLevel": level
+        })
+    }
+
+    function alchemyArray(baseinput, addedinput, output) {
+        event.custom({
+            "type": "bloodmagic:array",
+            "texture": "bloodmagic:textures/models/alchemyarrays/bindingarray.png",
+            "baseinput": {
+                "item": baseinput
+            },
+            "addedinput": {
+                "item": addedinput
+            },
+            "output": {
+                "item": output,
+                "nbt": "{Damage:0}"
+            }
+        })
+    }
     event.shaped('bloodmagic:altar', [
         'SAS',
         'SWS',
@@ -40,5 +80,9 @@ onEvent('recipes', event => {
 
     altar('kubejs:alpha_ingot', 'bloodmagic:blankslate', 0, 1000, 5, 5)
     altar('eidolon:arcane_gold_ingot', 'kubejs:alpha_ingot', 0, 1000, 5, 5)
-
+    alchemyTable(["forge:dusts/redstone", 'eidolon:enchanted_ash', "forge:gunpowder", "minecraft:coals"], "bloodmagic:arcaneashes", 500, 200, 1)
+    alchemyArray("bloodmagic:reagentbinding", "eidolon:warlock_boots", "bloodmagic:livingboots")
+    alchemyArray("bloodmagic:reagentbinding", "eidolon:warlock_cloak", "bloodmagic:livingleggings")
+    alchemyArray("bloodmagic:reagentbinding", "eidolon:warlock_hat", "bloodmagic:livinghelmet")
+    alchemyArray("bloodmagic:reagentbinding", "eidolon:warded_mail", "bloodmagic:livingplate")
 });

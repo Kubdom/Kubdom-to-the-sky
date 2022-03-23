@@ -40,6 +40,11 @@ onEvent('recipes', event => {
         { id: 'bloodmagic:blood_altar'},
         { id: 'bloodmagic:alchemy_table'},
         { id: 'bloodmagic:altar/slate'},
+        { id: 'bloodmagic:alchemytable/arcane_ash'},
+        { id: 'bloodmagic:array/living_boots'},
+        { id: 'bloodmagic:array/living_helmet'},
+        { id: 'bloodmagic:array/living_plate'},
+        { id: 'bloodmagic:array/living_leggings'},
     ]
     
     for (var i = 0; i < data.length; i++){
