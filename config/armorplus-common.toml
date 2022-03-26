@@ -7,56 +7,56 @@
 #Configure Items
 [items]
 
-	#coal equipment Configuration
+	#coal equipment configuration
 	[items.coal]
 		#coal armor: enable/disable full set effects
 		enableArmorEffects = true
 		#coal weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#lapis equipment Configuration
+	#lapis equipment configuration
 	[items.lapis]
 		#lapis armor: enable/disable full set effects
 		enableArmorEffects = true
 		#lapis weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#redstone equipment Configuration
+	#redstone equipment configuration
 	[items.redstone]
 		#redstone armor: enable/disable full set effects
 		enableArmorEffects = true
 		#redstone weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#chicken equipment Configuration
+	#chicken equipment configuration
 	[items.chicken]
 		#chicken armor: enable/disable full set effects
 		enableArmorEffects = true
 		#chicken weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#slime equipment Configuration
+	#slime equipment configuration
 	[items.slime]
 		#slime armor: enable/disable full set effects
 		enableArmorEffects = true
 		#slime weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#emerald equipment Configuration
+	#emerald equipment configuration
 	[items.emerald]
 		#emerald armor: enable/disable full set effects
 		enableArmorEffects = true
 		#emerald weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#obsidian equipment Configuration
+	#obsidian equipment configuration
 	[items.obsidian]
 		#obsidian armor: enable/disable full set effects
 		enableArmorEffects = true
 		#obsidian weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#infused_lava equipment Configuration
+	#infused_lava equipment configuration
 	[items.infused_lava]
 		#infused_lava armor: enable/disable full set effects
 		enableArmorEffects = true
@@ -70,49 +70,49 @@
 			#Infused Lava Tools: Smelting Recipe Output (Items)
 			smeltingOutput = ["minecraft:iron_ingot", "minecraft:gold_ingot", "minecraft:glass", "minecraft:smooth_sandstone", "minecraft:sponge", "minecraft:terracotta", "minecraft:cracked_stone_bricks", "minecraft:stone", "minecraft:stone", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:charcoal", "minecraft:nether_brick", "minecraft:netherite_scrap", "minecraft:cracked_stone_bricks"]
 
-	#frost equipment Configuration
+	#frost equipment configuration
 	[items.frost]
 		#frost armor: enable/disable full set effects
 		enableArmorEffects = true
 		#frost weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#frost_lava equipment Configuration
+	#frost_lava equipment configuration
 	[items.frost_lava]
 		#frost_lava armor: enable/disable full set effects
 		enableArmorEffects = true
 		#frost_lava weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#guardian equipment Configuration
+	#guardian equipment configuration
 	[items.guardian]
 		#guardian armor: enable/disable full set effects
 		enableArmorEffects = true
 		#guardian weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#super_star equipment Configuration
+	#super_star equipment configuration
 	[items.super_star]
 		#super_star armor: enable/disable full set effects
 		enableArmorEffects = true
 		#super_star weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#ender_dragon equipment Configuration
+	#ender_dragon equipment configuration
 	[items.ender_dragon]
 		#ender_dragon armor: enable/disable full set effects
 		enableArmorEffects = true
 		#ender_dragon weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#slayer equipment Configuration
+	#slayer equipment configuration
 	[items.slayer]
 		#slayer armor: enable/disable full set effects
 		enableArmorEffects = true
 		#slayer weapons: enable/disable on hit effects
 		enableWeaponEffects = true
 
-	#enhanced equipment Configuration
+	#enhanced equipment configuration
 	[items.enhanced]
 		#enhanced armor: enable/disable full set effects
 		enableArmorEffects = true
@@ -240,4 +240,67 @@
 		#maxY: 280 - Sets the maximum Y height to 200.
 		#Range: 1 ~ 254
 		maxY = 4
+
+#Enchantment Configuration
+[enchantments]
+	#is a list of registry names that will not work with the enchantment "Soul Harden"
+	disallowWithSoulHardenList = ["minecraft:mending", "minecraft:unbreaking", "minecraft:vanishing_curse"]
+
+#Mob Drops Configuration
+[drops]
+
+	#wither_boss drop configuration
+	[drops.wither_boss]
+		#ArmorPlus's wither_boss trophy drops: enable/disable
+		enableTrophyDrops = true
+		#ArmorPlus's wither_boss regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's wither_boss soul drops: enable/disable
+		enableSoulDrops = true
+
+	#ender_dragon drop configuration
+	[drops.ender_dragon]
+		#ArmorPlus's ender_dragon trophy drops: enable/disable
+		enableTrophyDrops = true
+		#ArmorPlus's ender_dragon regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's ender_dragon soul drops: enable/disable
+		enableSoulDrops = true
+
+	#elder_guardian drop configuration
+	[drops.elder_guardian]
+		#ArmorPlus's elder_guardian trophy drops: enable/disable
+		enableTrophyDrops = true
+		#ArmorPlus's elder_guardian regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's elder_guardian soul drops: enable/disable
+		enableSoulDrops = true
+
+	#wither_skeleton drop configuration
+	[drops.wither_skeleton]
+		#ArmorPlus's wither_skeleton regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's wither_skeleton soul drops: enable/disable
+		enableSoulDrops = true
+
+	#guardian drop configuration
+	[drops.guardian]
+		#ArmorPlus's guardian regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's guardian soul drops: enable/disable
+		enableSoulDrops = true
+
+	#enderman drop configuration
+	[drops.enderman]
+		#ArmorPlus's enderman regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's enderman soul drops: enable/disable
+		enableSoulDrops = true
+
+	#blaze drop configuration
+	[drops.blaze]
+		#ArmorPlus's blaze regular drops: enable/disable
+		enableRegularDrops = true
+		#ArmorPlus's blaze soul drops: enable/disable
+		enableSoulDrops = true
 

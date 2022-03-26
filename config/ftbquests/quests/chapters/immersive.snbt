@@ -468,7 +468,7 @@
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
 			x: -6.0d
-			y: -1.0d
+			y: -0.5d
 			dependencies: ["2C50A89B8A2A674B"]
 			id: "7DEDA41EF1449A74"
 			tasks: [
@@ -515,8 +515,8 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: -1.5d
+			x: -5.0d
+			y: -1.0d
 			dependencies: ["7DEDA41EF1449A74"]
 			id: "5F2E9F5BEB295825"
 			tasks: [{
@@ -526,8 +526,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -0.5d
+			x: -5.0d
+			y: 0.0d
 			dependencies: ["7DEDA41EF1449A74"]
 			id: "4DFF27D646572882"
 			tasks: [{
@@ -539,8 +539,8 @@
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -6.0d
-			y: 1.0d
+			x: -9.0d
+			y: -0.5d
 			dependencies: ["7DEDA41EF1449A74"]
 			id: "3B164A37A2412811"
 			tasks: [
@@ -582,8 +582,8 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: 0.5d
+			x: -10.5d
+			y: -0.5d
 			dependencies: ["3B164A37A2412811"]
 			id: "0976BAD0FB424EAF"
 			tasks: [{
@@ -593,9 +593,12 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 1.5d
-			dependencies: ["3B164A37A2412811"]
+			x: -9.0d
+			y: -2.0d
+			dependencies: [
+				"3B164A37A2412811"
+				"2E2BA8E69C205FB8"
+			]
 			id: "4DD21D64656B4ED1"
 			tasks: [{
 				id: "6A443DE29CEDD429"
@@ -606,9 +609,9 @@
 		{
 			title: "Diesel Generator"
 			icon: "immersiveengineering:diesel_generator"
-			x: -6.0d
-			y: 2.0d
-			dependencies: ["3B164A37A2412811"]
+			x: -11.5d
+			y: -0.5d
+			dependencies: ["0976BAD0FB424EAF"]
 			id: "2C9CA1E0D64637F8"
 			tasks: [
 				{
@@ -757,6 +760,74 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Pumpjack"
+			icon: "immersivepetroleum:pumpjack"
+			x: -9.0d
+			y: -6.0d
+			dependencies: ["39B16DFDBACE11B9"]
+			id: "4A95044889466874"
+			tasks: [
+				{
+					id: "38673207CDD04B8A"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "470DF72A41FC14FB"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "1CBD6EF28C30C773"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6L
+				}
+				{
+					id: "38E552E1CF455D6C"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "67B292A8251764F8"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "6845734ADED5CB13"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+				{
+					id: "2BA116A22DC4AC42"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4L
+				}
+				{
+					id: "1660E3532113949F"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -4.0d
+			dependencies: ["4A95044889466874"]
+			id: "2E2BA8E69C205FB8"
+			tasks: [{
+				id: "4580F15531484254"
+				type: "item"
+				item: "immersivepetroleum:oil_bucket"
+			}]
 		}
 	]
 }
