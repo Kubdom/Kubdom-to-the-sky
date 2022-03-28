@@ -49,6 +49,8 @@ onEvent('recipes', event => {
         { id: 'cyclic:solidifier'},
         { id: 'cyclic:melter'},
         { id: 'cyclic:disenchanter'},
+        { id: 'industrialforegoing:machine_frame_pity'},
+        { id: 'minecraft:bucket'},
     ]
     
     for (var i = 0; i < data.length; i++){

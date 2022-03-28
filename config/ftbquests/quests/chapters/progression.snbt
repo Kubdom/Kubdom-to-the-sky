@@ -59,6 +59,7 @@
 			}]
 		}
 		{
+			title: "Immersive Quests"
 			icon: {
 				id: "immersiveengineering:hammer"
 				Count: 1b
@@ -77,6 +78,21 @@
 				id: "2E5E5F20650581AA"
 				type: "checkmark"
 				title: "Immersive"
+			}]
+		}
+		{
+			icon: "industrialforegoing:mob_imprisonment_tool"
+			x: -9.0d
+			y: -3.0d
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "50B589FF64B49C35"
+			tasks: [{
+				id: "755AD276B7B7ABD5"
+				type: "checkmark"
+				title: "Industrial Quests"
 			}]
 		}
 	]

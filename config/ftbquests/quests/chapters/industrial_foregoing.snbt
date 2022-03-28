@@ -1,0 +1,54 @@
+{
+	id: "5E1DA159BF53A27A"
+	group: ""
+	order_index: 6
+	filename: "industrial_foregoing"
+	title: "Industrial Foregoing"
+	icon: "industrialforegoing:mob_imprisonment_tool"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["50B589FF64B49C35"]
+			size: 1.5d
+			id: "7E3AEDBF913F86E4"
+			tasks: [{
+				id: "58B4FCF82676798E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			id: "5C6A1563B9BA7B77"
+			tasks: [{
+				id: "21B732B089CACE9F"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "17365C2AA32B356A"
+			tasks: [{
+				id: "0A391ECD65E032D7"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			id: "661E021376FA6A81"
+			tasks: [{
+				id: "2417E48110756D0C"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+	]
+}

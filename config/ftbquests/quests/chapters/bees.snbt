@@ -1,0 +1,11 @@
+{
+	id: "0BED9D37F3409B68"
+	group: ""
+	order_index: 7
+	filename: "bees"
+	title: "Bees"
+	icon: "minecraft:honeycomb"
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

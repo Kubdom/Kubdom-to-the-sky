@@ -590,7 +590,7 @@
 		}
 		{
 			x: -5.5d
-			y: -6.5d
+			y: -7.5d
 			dependencies: ["59A2856FBE9668F9"]
 			id: "15E1983CF2C61455"
 			tasks: [
@@ -653,6 +653,39 @@
 				id: "0725C55B82166DFC"
 				type: "item"
 				item: "ironfurnaces:million_furnace"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			dependencies: ["59A2856FBE9668F9"]
+			id: "44B319F9F9205013"
+			tasks: [{
+				id: "549F8EBB8F11C5EB"
+				type: "item"
+				item: "exnihilosequentia:barrel_wood"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			dependencies: ["44B319F9F9205013"]
+			id: "3EA0E827E39F9797"
+			tasks: [{
+				id: "46E25271756F9DA3"
+				type: "item"
+				item: "exnihilosequentia:bucket_witchwater"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			dependencies: ["3EA0E827E39F9797"]
+			id: "5328E952B81A6525"
+			tasks: [{
+				id: "4D3AB1F29E3E5825"
+				type: "item"
+				item: "exnihilosequentia:doll_bee"
 			}]
 		}
 	]

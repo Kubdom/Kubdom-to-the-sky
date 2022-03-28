@@ -148,5 +148,13 @@ event.shaped('metalbarrels:obsidian_barrel', [
 // Obsidian to Netherite barrel
 event.smithing('metalbarrels:netherite_barrel', 'metalbarrels:obsidian_barrel', 'minecraft:netherite_ingot')
 
+// Iron bucket
+event.shaped('minecraft:bucket', [
+  '   ',
+  'P P',
+  ' P '
+], {
+  P: 'thermal:iron_plate'
+})
 
 })
