@@ -51,6 +51,9 @@ onEvent('recipes', event => {
         { id: 'cyclic:disenchanter'},
         { id: 'industrialforegoing:machine_frame_pity'},
         { id: 'minecraft:bucket'},
+        
+        // remove for unify
+        //{ id: 'minecraft:bucket'},
     ]
     
     for (var i = 0; i < data.length; i++){
