@@ -66,7 +66,7 @@ onEvent('recipes', (event) => {
 
 
     function createCrushingIngot (input, output) {
-        eevent.custom({"type":"create:crushing","ingredients": [{"tag": input}],"results": [{"item": output}],"processingTime": 350})}
+        event.custom({"type":"create:crushing","ingredients": [{"tag": input}],"results": [{"item": output}],"processingTime": 350})}
 
     function createCrushingOre (input, output, qte, qte2, secoutput){
         event.custom({"type": "create:crushing","ingredients": [{"tag": input}],"results": [{"item": output, "count": qte},{"item": output,"count": qte2,"chance": 0.3},{"item": secoutput,"chance": 0.125}],"processingTime": 400,})}

@@ -30,30 +30,6 @@ onEvent('recipes', event => {
 
 
 
-  
-// REVOIR LE FLUID DU SQUEEZER QUI MORCHE PO !!
-
-  event.custom({
-    "type": "immersiveengineering:squeezer",
-    "result": {
-      "tag": "forge:dusts/hop_graphite"
-    },
-    "fuild": {
-      "fluid": "immersivepetroleum:oil"
-    },
-    "input": {
-      "count": 8,
-      "base_ingredient": {
-        "tag": "forge:dusts/coal_coke"
-      }
-    },
-    "energy": 19200
-  })
-
-
-
-
-
 
 
 
