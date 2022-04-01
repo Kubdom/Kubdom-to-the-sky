@@ -57,12 +57,11 @@ onEvent('recipes', event => {
         })
     }
     event.shaped('bloodmagic:altar', [
-        'SAS',
+        'S S',
         'SWS',
         'PPP'
     ], {
         P: 'eidolon:pewter_ingot',
-        A: 'minecraft:air',
         W: 'eidolon:worktable',
         S: 'eidolon:stone_altar'
     })
@@ -80,6 +79,10 @@ onEvent('recipes', event => {
 
     altar('kubejs:alpha_ingot', 'bloodmagic:blankslate', 0, 1000, 5, 5)
     altar('eidolon:arcane_gold_ingot', 'kubejs:alpha_ingot', 0, 1000, 5, 5)
+    altar('bloodmagic:weakbloodorb', 'bloodmagic:apprenticebloodorb', 1, 5000, 5, 5)
+    altar('bloodmagic:apprenticebloodorb', 'bloodmagic:magicianbloodorb', 2, 25000, 20, 20) 
+    altar('bloodmagic:magicianbloodorb', 'bloodmagic:masterbloodorb', 3, 40000, 30, 50) 
+
     alchemyTable(["forge:dusts/redstone", 'eidolon:enchanted_ash', "forge:gunpowder", "minecraft:coals"], "bloodmagic:arcaneashes", 500, 200, 1)
     alchemyArray("bloodmagic:reagentbinding", "eidolon:warlock_boots", "bloodmagic:livingboots")
     alchemyArray("bloodmagic:reagentbinding", "eidolon:warlock_cloak", "bloodmagic:livingleggings")

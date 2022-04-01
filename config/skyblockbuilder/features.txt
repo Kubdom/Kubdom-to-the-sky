@@ -343,11 +343,11 @@ pamhc2trees:rambutan_worldgen
 pamhc2trees:tamarind_worldgen
 pamhc2trees:maple_worldgen
 pamhc2trees:pinenut_worldgen
+pneumaticcraft:oil_lake
+rftoolsdim:rftfeature
 mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
-pneumaticcraft:oil_lake
-rftoolsdim:rftfeature
 mysticalagriculture:soulstone
 zerocore:mod_ores
 zerocore:mod_ores_regen

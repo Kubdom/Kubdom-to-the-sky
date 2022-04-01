@@ -51,7 +51,9 @@ onEvent('recipes', event => {
         { id: 'cyclic:disenchanter'},
         { id: 'industrialforegoing:machine_frame_pity'},
         { id: 'minecraft:bucket'},
-        
+        {id : 'bloodmagic:altar/apprenticebloodorb'},
+        {id : 'bloodmagic:altar/magicianbloodorb'},
+        {id : 'bloodmagic:altar/masterbloodorb'},
         // remove for unify
         { id: 'create:crushing/uranium_ore'},
         { id: 'create:pressing/iron_ingot' },
