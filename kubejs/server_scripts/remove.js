@@ -53,7 +53,11 @@ onEvent('recipes', event => {
         { id: 'minecraft:bucket'},
         
         // remove for unify
-        //{ id: 'minecraft:bucket'},
+        { id: 'create:crushing/uranium_ore'},
+        { id: 'create:pressing/iron_ingot' },
+        { id: 'immersiveengineering:metalpress/iron_plate'},
+        
+
     ]
     
     for (var i = 0; i < data.length; i++){

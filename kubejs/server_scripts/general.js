@@ -157,4 +157,27 @@ event.shaped('minecraft:bucket', [
   P: 'thermal:iron_plate'
 })
 
+
+
+// iron sheet (create)
+event.shapeless('create:iron_sheet','thermal:iron_plate')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })
