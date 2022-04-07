@@ -79,7 +79,7 @@ onEvent('recipes', event => {
 
     altar('kubejs:alpha_ingot', 'bloodmagic:blankslate', 0, 1000, 5, 5)
     altar('eidolon:arcane_gold_ingot', 'kubejs:alpha_ingot', 0, 1000, 5, 5)
-    altar('bloodmagic:weakbloodorb', 'bloodmagic:apprenticebloodorb', 1, 5000, 5, 5)
+    altar('bloodmagic:weakbloodorb', 'kubejs:apprentice_blood_orb_shard', 1, 5000, 5, 5)
     altar('bloodmagic:apprenticebloodorb', 'bloodmagic:magicianbloodorb', 2, 25000, 20, 20) 
     altar('bloodmagic:magicianbloodorb', 'bloodmagic:masterbloodorb', 3, 40000, 30, 50) 
 

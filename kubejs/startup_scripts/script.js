@@ -6,6 +6,11 @@ onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
 	event.create('alpha_ingot').displayName('Alpha Ingot').tooltip("Ingot create with life essence and ...")
+	event.create('weak_blood_orb_shard').displayName('Weak Blood Orb Shard')
+	event.create('apprentice_blood_orb_shard').displayName('Apprentice Blood Orb Shard')
+	event.create('magician_blood_orb_shard').displayName('Magician Blood Orb Shard')
+	event.create('master_blood_orb_shard').displayName('Master Blood Orb Shard')
+	
 })
 
 onEvent('block.registry', event => {
