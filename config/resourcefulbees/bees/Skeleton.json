@@ -8,31 +8,19 @@
     "honeycombColor": "#F6F2E6"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:stone",
-        "outputs": [
-          {"outputID": "minecraft:gravel", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:bone"
   },
-  "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean",
-    "lightLevel": "NIGHT"
-  },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "small",
-    "feedAmount": 8
+    "feedItem": "minecraft:bone"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:plains"
   },
   "TraitData": {}
 }

@@ -1,39 +1,29 @@
 {
-  "flower": "tag:forge:storage_blocks/quartz",
-  "maxTimeInHive": 1000,
+  "flower": "minecraft:quartz_block",
   "hasHoneycomb": true,
-  "traits": ["nether"],
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/quartz_bee",
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#D4CABA",
-    "primaryColor": "#D4CABA",
-    "secondaryColor": "#303030"
+      "isBeeColored": false,
+      "honeycombColor": "#D4CABA",
+      "modelType": "ORE"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:netherrack",
-        "outputs": [
-          {"outputID": "minecraft:nether_quartz_ore", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:quartz",
-    "mainOutputCount": 2
+    "mainOutputCount": 4
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:nether",
-    "lightLevel": "NIGHT"
+    "canSpawnInWorld": false
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "nether",
+    "feedItem": "minecraft:quartz"
   },
   "TraitData": {
     "hasTraits": true

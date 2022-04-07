@@ -1,5 +1,5 @@
 {
-  "flower": "tag:forge:storage_blocks/lapis",
+  "flower": "minecraft:lapis_block",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/lapis/lapis_bee",
@@ -9,17 +9,7 @@
     "modelType": "ORE"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:stone",
-        "outputs": [
-          {"outputID": "minecraft:lapis_ore", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -27,12 +17,13 @@
     "mainOutputCount": 8
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rgbee",
+    "feedItem": "minecraft:lapis_lazuli"
   },
   "TraitData": {}
 }

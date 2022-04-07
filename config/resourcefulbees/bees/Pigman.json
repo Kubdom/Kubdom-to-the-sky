@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:nether_wart",
+  "flower": "minecraft:glowstone",
   "maxTimeInHive": 1000,
   "hasHoneycomb": true,
   "baseLayerTexture": "pigman/pigman_bee",
@@ -9,29 +9,19 @@
     "honeycombColor": "#885956"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:netherrack",
-        "outputs": [
-          {"outputID": "minecraft:glowstone", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:glowstone_dust"
   },
-  "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:nether",
-    "lightLevel": "NIGHT"
-  },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:glowstone_dust"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:nether"
   },
   "TraitData": {
     "hasTraits": true

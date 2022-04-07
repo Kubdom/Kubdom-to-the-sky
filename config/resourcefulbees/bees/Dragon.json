@@ -1,7 +1,7 @@
 {
-  "flower": "minecraft:obsidian",
-  "maxTimeInHive": 2400,
+  "flower": "kubejs:dragon_bee_flower",
   "hasHoneycomb": true,
+  "maxTimeInHive": 2400,
   "baseLayerTexture" : "dragon/dragon_bee",
   "traits": [ "ender", "nether", "wither" ],
   "ColorData": {
@@ -17,32 +17,19 @@
     "honeycombColor": "#E400FF"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:stone",
-        "chance": 0.5,
-        "outputs": [
-          {"outputID": "minecraft:end_stone", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:dragon_egg",
-    "bottleOutput": "minecraft:dragon_breath",
-    "mainOutputWeight": 0.01,
-    "bottleOutputWeight": 0.5
+    "mainOutputWeight": 0.05
   },
   "SpawnData": {},
   "BreedData": {
     "isBreedable": true,
-    "parent1": "Wither",
-    "parent2": "Ender",
-    "feedItem": "minecraft:end_stone",
-    "feedAmount": 12
+    "parent1": "ender",
+    "parent2": "wither",
+    "feedItem": "forbidden_arcanus:dragon_scale"
   },
   "TraitData": {
     "hasTraits": true

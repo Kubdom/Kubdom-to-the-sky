@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "earthmobsmod:rainbow_wool",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "ColorData": {
@@ -10,19 +10,16 @@
   },
   "MutationData": {},
   "CentrifugeData": {
-    "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:red_dye",
-    "secondaryOutput": "minecraft:green_dye",
-    "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
-    "bottleOutputWeight": 0.02
+    "hasCentrifugeOutput": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:dyes"
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:OVerWorld",
+    "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean"
-  },
-  "BreedData": {
-    "isBreedable": true
   },
   "TraitData": {}
 }

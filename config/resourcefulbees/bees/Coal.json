@@ -1,25 +1,15 @@
 {
-  "flower": "tag:forge:storage_blocks/coal",
-  "maxTimeInHive": 600,
+  "flower": "minecraft:coal_block",
   "hasHoneycomb": true,
+  "maxTimeInHive": 600,
   "baseLayerTexture": "ores/coal/coal_bee",
   "ColorData": {
-    "isBeeColored": false,
-    "honeycombColor": "#303030",
-    "modelType": "ORE"
+      "isBeeColored": false,
+      "honeycombColor": "#303030",
+      "modelType": "ORE"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:stone",
-        "chance": 0.75,
-        "outputs": [
-          {"outputID": "minecraft:coal_ore", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -27,14 +17,13 @@
     "mainOutputCount": 16
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "BreedData": {
-    "feedItem": "minecraft:poppy",
-    "feedAmount": 4,
-    "isBreedable": true
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "minecraft:coal"
   },
   "TraitData": {}
 }

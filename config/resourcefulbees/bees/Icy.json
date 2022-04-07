@@ -1,41 +1,27 @@
 {
-  "flower": "minecraft:water",
-  "hasHoneycomb": false,
-  "traits": ["can_swim"],
-  "maxTimeInHive": 1200,
-  "sizeModifier": 0.75,
-  "baseLayerTexture": "natural/icy_bee",
+  "flower": "minecraft:blue_ice",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "icy_bee",
   "ColorData": {
-    "isBeeColored": false,
-    "honeycombColor": "#92b9fe",
-    "primaryColor": "#92b9fe",
-    "secondaryColor": "#303030",
-    "modelType": "GELATINOUS"
+      "isBeeColored": false,
+      "honeycombColor": "#92b9fe",
+      "modelType": "GELATINOUS"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:water",
-        "chance": 0.65,
-        "outputs": [
-          {"outputID": "minecraft:ice", "weight": 7},
-          {"outputID": "minecraft:packed_ice", "weight": 3}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
-  },
-  "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:COLD",
-    "biomeBlacklist": "tag:ocean"
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ice"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:ice"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:snowy"
   },
   "TraitData": {
     "hasTraits": true

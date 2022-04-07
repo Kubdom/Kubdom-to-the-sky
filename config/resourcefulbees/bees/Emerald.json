@@ -1,36 +1,28 @@
 {
-  "flower": "tag:forge:storage_blocks/emerald",
+  "flower": "minecraft:emerald_block",
   "hasHoneycomb": true,
+  "maxTimeInHive": 600,
   "baseLayerTexture": "ores/emerald/emerald_bee",
   "ColorData": {
-    "isBeeColored": false,
-    "honeycombColor": "#18eb09",
-    "modelType": "ORE"
+      "isBeeColored": false,
+      "honeycombColor": "#18eb09",
+      "modelType": "ORE"
   },
   "MutationData": {
-    "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:stone",
-        "chance": 0.75,
-        "outputs": [
-          {"outputID": "minecraft:lava", "weight": 10}
-        ]
-      }
-    ]
+    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:emerald"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:Mountain,Hills"
+    "canSpawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
-    "spawnWeight": 4
+    "parent1": "terrasteel",
+    "parent2": "nether_quartz",
+    "feedItem": "minecraft:emerald"
   },
   "TraitData": {}
 }
