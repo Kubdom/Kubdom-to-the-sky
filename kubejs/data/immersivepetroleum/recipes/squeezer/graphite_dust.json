@@ -1,5 +1,5 @@
 {
-  "type": "immersiveengineering:squeezer","fluid":{"fluid":"immersivepetroleum:oil","amount":1},
+  "type": "immersiveengineering:squeezer","fluid":{"fluid":"immersivepetroleum:oil","amount":8},
   "result": {
     "tag": "forge:dusts/hop_graphite"
   },

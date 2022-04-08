@@ -294,6 +294,15 @@ sonicraft:animal_capsule
 sonicraft:air_bubble_spawn
 botania:mystical_flowers
 botania:mystical_mushrooms
+undergarden:undergarden_tree
+undergarden:blood_mushroom
+undergarden:indigo_mushroom
+undergarden:ink_mushroom
+undergarden:veil_mushroom
+undergarden:glowing_kelp
+undergarden:smog_vent
+undergarden:droopvine
+undergarden:ice_pillar
 pamhc2trees:apple_worldgen
 pamhc2trees:avocado_worldgen
 pamhc2trees:candlenut_worldgen

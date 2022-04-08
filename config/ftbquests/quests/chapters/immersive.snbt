@@ -453,8 +453,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -2.0d
+			x: -6.0d
+			y: -1.0d
 			shape: "circle"
 			dependencies: ["2C50A89B8A2A674B"]
 			id: "014BC53090FFE625"
@@ -467,8 +467,8 @@
 		{
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: -6.0d
-			y: -0.5d
+			x: -7.5d
+			y: -2.0d
 			dependencies: ["2C50A89B8A2A674B"]
 			id: "7DEDA41EF1449A74"
 			tasks: [
@@ -515,7 +515,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -7.5d
 			y: -1.0d
 			dependencies: ["7DEDA41EF1449A74"]
 			id: "5F2E9F5BEB295825"
@@ -526,21 +526,10 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 0.0d
-			dependencies: ["7DEDA41EF1449A74"]
-			id: "4DFF27D646572882"
-			tasks: [{
-				id: "7DC6BB1A784278B9"
-				type: "item"
-				item: "immersiveengineering:dust_hop_graphite"
-			}]
-		}
-		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: -9.0d
-			y: -0.5d
+			x: -8.5d
+			y: -2.0d
 			dependencies: ["7DEDA41EF1449A74"]
 			id: "3B164A37A2412811"
 			tasks: [
@@ -582,8 +571,8 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: -0.5d
+			x: -9.5d
+			y: -1.0d
 			dependencies: ["3B164A37A2412811"]
 			id: "0976BAD0FB424EAF"
 			tasks: [{
@@ -593,11 +582,11 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -2.0d
+			x: -9.5d
+			y: -3.0d
 			dependencies: [
 				"3B164A37A2412811"
-				"2E2BA8E69C205FB8"
+				"4B3E8AB61E2584F6"
 			]
 			id: "4DD21D64656B4ED1"
 			tasks: [{
@@ -609,8 +598,8 @@
 		{
 			title: "Diesel Generator"
 			icon: "immersiveengineering:diesel_generator"
-			x: -11.5d
-			y: -0.5d
+			x: -10.5d
+			y: -1.0d
 			dependencies: ["0976BAD0FB424EAF"]
 			id: "2C9CA1E0D64637F8"
 			tasks: [
@@ -762,69 +751,127 @@
 			]
 		}
 		{
-			title: "Pumpjack"
-			icon: "immersivepetroleum:pumpjack"
-			x: -9.0d
+			title: "Coker"
+			icon: "immersivepetroleum:cokerunit"
+			x: -8.5d
 			y: -6.0d
 			dependencies: ["39B16DFDBACE11B9"]
-			id: "4A95044889466874"
+			id: "05400FFADC344BB4"
 			tasks: [
 				{
-					id: "38673207CDD04B8A"
+					id: "3D7100D1CB860C96"
 					type: "item"
 					item: "immersiveengineering:steel_scaffolding_standard"
-					count: 11L
+					count: 98L
 				}
 				{
-					id: "470DF72A41FC14FB"
+					id: "1A4EC9C37DB4EE35"
 					type: "item"
-					item: "immersiveengineering:light_engineering"
-					count: 2L
+					item: "immersiveengineering:concrete"
+					count: 12L
 				}
 				{
-					id: "1CBD6EF28C30C773"
-					type: "item"
-					item: "immersiveengineering:treated_fence"
-					count: 6L
-				}
-				{
-					id: "38E552E1CF455D6C"
+					id: "3B6DCA42C05297DC"
 					type: "item"
 					item: "immersiveengineering:heavy_engineering"
-					count: 2L
+					count: 5L
 				}
 				{
-					id: "67B292A8251764F8"
+					id: "21F44BABDB16A21A"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 5L
+				}
+				{
+					id: "7739A9FFA009039F"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+				}
+				{
+					id: "63976B27029BE3B5"
 					type: "item"
 					item: "immersiveengineering:rs_engineering"
 				}
 				{
-					id: "6845734ADED5CB13"
+					id: "13F9683401EF9877"
+					type: "item"
+					item: "immersiveengineering:concrete_tile"
+					count: 45L
+				}
+				{
+					id: "48D8210E308C82A9"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 64L
+				}
+				{
+					id: "6123F8A5716A1DF0"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 24L
+				}
+				{
+					id: "7EE7D5771EE8BDCA"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 64L
+				}
+				{
+					id: "29139A33CFDB39D3"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 64L
+				}
+				{
+					id: "42DA19EFBDA54960"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 38L
+				}
+				{
+					id: "793FEE817170E50B"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					count: 46L
+				}
+				{
+					id: "55DA2BED25251B60"
 					type: "item"
 					item: "immersiveengineering:fluid_pipe"
-					count: 4L
+					count: 47L
 				}
 				{
-					id: "2BA116A22DC4AC42"
+					id: "5DDA71C222AC4678"
 					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
-					count: 4L
-				}
-				{
-					id: "1660E3532113949F"
-					type: "item"
-					item: "immersiveengineering:storage_steel"
-					count: 2L
+					item: "immersiveengineering:steel_slope"
+					count: 3L
 				}
 			]
+			rewards: [{
+				id: "6C6A66C8885C8F23"
+				type: "item"
+				item: "thermal:bitumen"
+				count: 64
+			}]
 		}
 		{
-			x: -9.0d
-			y: -4.0d
-			dependencies: ["4A95044889466874"]
-			id: "2E2BA8E69C205FB8"
+			x: -9.5d
+			y: -6.0d
+			dependencies: ["05400FFADC344BB4"]
+			id: "5D3E96F04DC783F7"
 			tasks: [{
-				id: "4580F15531484254"
+				id: "6E65ADF5DDA96FA7"
+				type: "item"
+				item: "immersivepetroleum:petcoke"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.5d
+			dependencies: ["5D3E96F04DC783F7"]
+			id: "4B3E8AB61E2584F6"
+			tasks: [{
+				id: "23673016CB12FEC4"
 				type: "item"
 				item: "immersivepetroleum:oil_bucket"
 			}]
