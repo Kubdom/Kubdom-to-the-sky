@@ -25,6 +25,7 @@
 		{
 			x: 3.0d
 			y: -3.0d
+			dependencies: ["453141E05A23E9EC"]
 			id: "3CF6D2C3C1D4EEC3"
 			tasks: [{
 				id: "035D68CB49A81B98"
@@ -36,6 +37,7 @@
 		{
 			x: 4.0d
 			y: -3.0d
+			dependencies: ["3CF6D2C3C1D4EEC3"]
 			id: "5AF055459F740D86"
 			tasks: [{
 				id: "3A9ADE69DB1460D8"
@@ -46,6 +48,7 @@
 		{
 			x: 6.0d
 			y: -3.0d
+			dependencies: ["5AF055459F740D86"]
 			size: 2.0d
 			id: "3B4A97192E998EF0"
 			tasks: [
@@ -76,6 +79,7 @@
 		{
 			x: 3.0d
 			y: -4.0d
+			dependencies: ["3CF6D2C3C1D4EEC3"]
 			id: "786DBA5A1D637006"
 			tasks: [{
 				id: "069BEE5F5501C7FD"
@@ -86,6 +90,7 @@
 		{
 			x: 3.0d
 			y: -5.0d
+			dependencies: ["786DBA5A1D637006"]
 			id: "645AE3EF5C5CE45F"
 			tasks: [
 				{
@@ -104,6 +109,7 @@
 		{
 			x: 3.0d
 			y: -6.0d
+			dependencies: ["645AE3EF5C5CE45F"]
 			id: "527A93D1D5D814E5"
 			tasks: [{
 				id: "6CFDA046804F19B9"
@@ -114,6 +120,7 @@
 		{
 			x: 3.0d
 			y: -7.0d
+			dependencies: ["527A93D1D5D814E5"]
 			id: "178DFC070D398554"
 			tasks: [{
 				id: "07F3E3AEE20C6C04"
@@ -124,6 +131,7 @@
 		{
 			x: 4.0d
 			y: -5.0d
+			dependencies: ["645AE3EF5C5CE45F"]
 			id: "73885FB179A6865D"
 			tasks: [{
 				id: "308A3687A2E4F6A2"
@@ -134,6 +142,10 @@
 		{
 			x: 4.0d
 			y: -6.0d
+			dependencies: [
+				"527A93D1D5D814E5"
+				"73885FB179A6865D"
+			]
 			id: "6067D61CFAD52ED1"
 			tasks: [{
 				id: "71620A4306190D49"
@@ -144,6 +156,7 @@
 		{
 			x: 4.0d
 			y: -7.0d
+			dependencies: ["178DFC070D398554"]
 			id: "144D0EAEA9812A4B"
 			tasks: [{
 				id: "4325C7E0155D2898"
@@ -154,6 +167,7 @@
 		{
 			x: 6.0d
 			y: -6.0d
+			dependencies: ["6067D61CFAD52ED1"]
 			size: 1.5d
 			id: "21B3E1B14E588F14"
 			tasks: [{
@@ -166,6 +180,7 @@
 		{
 			x: 6.0d
 			y: -4.5d
+			dependencies: ["21B3E1B14E588F14"]
 			id: "1EB9604091DEE803"
 			tasks: [
 				{
@@ -253,6 +268,7 @@
 		{
 			x: 4.0d
 			y: -4.0d
+			dependencies: ["3CF6D2C3C1D4EEC3"]
 			id: "32C8B2D04E047E23"
 			tasks: [{
 				id: "48915C65CD646A5E"
@@ -263,6 +279,7 @@
 		{
 			x: 3.0d
 			y: -2.0d
+			dependencies: ["3CF6D2C3C1D4EEC3"]
 			id: "4F9204CB6B262342"
 			tasks: [{
 				id: "007E27F351833F69"
@@ -273,6 +290,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
+			dependencies: ["453141E05A23E9EC"]
 			id: "5518EE44437C8116"
 			tasks: [{
 				id: "09DB78E37FF7D139"
@@ -283,6 +301,7 @@
 		{
 			x: 3.0d
 			y: -1.0d
+			dependencies: ["4F9204CB6B262342"]
 			id: "743E098601D2FA92"
 			tasks: [{
 				id: "590761B427314904"
@@ -293,6 +312,7 @@
 		{
 			x: 8.0d
 			y: -3.0d
+			dependencies: ["3B4A97192E998EF0"]
 			id: "78196DD138B260C7"
 			tasks: [{
 				id: "27908ADCA6498FB5"
@@ -303,6 +323,10 @@
 		{
 			x: 8.0d
 			y: -2.0d
+			dependencies: [
+				"15434975C26A3BCD"
+				"78196DD138B260C7"
+			]
 			id: "29F0A3DD61C22211"
 			tasks: [{
 				id: "2EDDE27735261002"
@@ -313,6 +337,7 @@
 		{
 			x: 7.0d
 			y: -2.0d
+			dependencies: ["29F0A3DD61C22211"]
 			id: "1CA0C54375400C00"
 			tasks: [{
 				id: "3CF503C8BF851FE3"
@@ -323,6 +348,7 @@
 		{
 			x: 8.0d
 			y: -4.0d
+			dependencies: ["78196DD138B260C7"]
 			id: "689FB3AA037C078D"
 			tasks: [{
 				id: "5F45382ED14BBE5A"
@@ -333,6 +359,7 @@
 		{
 			x: 8.0d
 			y: -1.0d
+			dependencies: ["29F0A3DD61C22211"]
 			id: "777D674F86FCAF72"
 			tasks: [{
 				id: "74B495F04135C973"
@@ -343,6 +370,7 @@
 		{
 			x: 7.0d
 			y: -1.0d
+			dependencies: ["777D674F86FCAF72"]
 			id: "2211259D8D7A0256"
 			tasks: [{
 				id: "2E91477CEB3E9782"
@@ -353,6 +381,7 @@
 		{
 			x: 8.0d
 			y: 0.0d
+			dependencies: ["777D674F86FCAF72"]
 			id: "301B7776D5AF6366"
 			tasks: [
 				{
@@ -404,6 +433,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
+			dependencies: ["3B4A97192E998EF0"]
 			id: "6C628B1B0C9A3F96"
 			tasks: [{
 				id: "524991E19DB66E16"
@@ -414,6 +444,7 @@
 		{
 			x: 6.0d
 			y: -0.5d
+			dependencies: ["6C628B1B0C9A3F96"]
 			id: "6FE1363B8FAE92CE"
 			tasks: [{
 				id: "73FEF5A473F6C661"
@@ -422,8 +453,9 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 11.0d
 			y: -1.0d
+			dependencies: ["777D674F86FCAF72"]
 			id: "7C363ADF7E848C8C"
 			tasks: [
 				{
@@ -461,6 +493,7 @@
 		{
 			x: 9.5d
 			y: -2.0d
+			dependencies: ["23B0804C828E9C04"]
 			id: "15434975C26A3BCD"
 			tasks: [{
 				id: "0FEBA872E62FFE1B"
@@ -471,11 +504,70 @@
 		{
 			x: 9.5d
 			y: -3.0d
+			dependencies: ["0643BC9483DC7591"]
 			id: "23B0804C828E9C04"
 			tasks: [{
 				id: "61CC4B8208F6FF6E"
 				type: "item"
 				item: "pneumaticcraft:uv_light_box"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			dependencies: ["21B3E1B14E588F14"]
+			id: "6C4F437DCD0968A5"
+			tasks: [{
+				id: "344D3168B20012AA"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["6C4F437DCD0968A5"]
+			id: "0643BC9483DC7591"
+			tasks: [{
+				id: "3B44D0B222E372A4"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			dependencies: ["6C4F437DCD0968A5"]
+			id: "01E3755DD74753C9"
+			tasks: [{
+				id: "5D83927BE697C7E5"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			dependencies: [
+				"7C363ADF7E848C8C"
+				"01E3755DD74753C9"
+			]
+			id: "154E672C401B04AD"
+			tasks: [{
+				id: "686B53AD92601735"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.5d
+			dependencies: ["154E672C401B04AD"]
+			id: "031B80335D4B2AEC"
+			tasks: [{
+				id: "50443DF8F52E8CEC"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
 			}]
 		}
 	]

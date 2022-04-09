@@ -50,5 +50,241 @@
 				item: "industrialforegoing:latex_bucket"
 			}]
 		}
+		{
+			title: "Plastic, it's fantastic"
+			x: 2.0d
+			y: -3.5d
+			size: 1.5d
+			id: "68B8B2758A9DD437"
+			tasks: [{
+				id: "61B4B48F2BB530F8"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 16L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			id: "17D3FA0D0073DFB0"
+			tasks: [{
+				id: "1FE1D0A3AE624FAD"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			id: "534481FF0047C701"
+			tasks: [{
+				id: "1C19A9A8C117234F"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			id: "0196C95B589ECC90"
+			tasks: [{
+				id: "38BF9ABD20BBF59F"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "28749B39D38CB59D"
+			tasks: [{
+				id: "49B334F2F501A955"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			id: "4B5EE6728F10C220"
+			tasks: [{
+				id: "31B0D8124F58810E"
+				type: "item"
+				item: "industrialforegoing:biofuel_bucket"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			id: "6F4F9C3BC22E6C6E"
+			tasks: [{
+				id: "78A971F72179B1F9"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+		}
+		{
+			title: "Pure Breeding"
+			x: -4.5d
+			y: -2.5d
+			id: "1C34CBF4B560CA7C"
+			tasks: [
+				{
+					id: "305F05B2281CD0FC"
+					type: "item"
+					item: "industrialforegoing:animal_feeder"
+				}
+				{
+					id: "2D3C596A3C034B4E"
+					type: "item"
+					item: "industrialforegoing:animal_rancher"
+				}
+				{
+					id: "509D81E3E5CD3139"
+					type: "item"
+					item: "industrialforegoing:animal_baby_separator"
+				}
+			]
+		}
+		{
+			title: "Fluid Handling"
+			x: -3.5d
+			y: -2.0d
+			id: "313D067C8B66DCFF"
+			tasks: [
+				{
+					id: "449ACF5B26761396"
+					type: "item"
+					item: "industrialforegoing:fluid_placer"
+				}
+				{
+					id: "5CA3E7C0ED60BEF6"
+					type: "item"
+					item: "industrialforegoing:fluid_collector"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			id: "22CEB5ACC1916463"
+			tasks: [{
+				id: "4139A2C641619A4B"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			id: "375E9524ACF2EA68"
+			tasks: [{
+				id: "6E8B7D6B108117BD"
+				type: "item"
+				item: "industrialforegoing:fertilizer"
+			}]
+		}
+		{
+			title: "Block Handling"
+			x: -2.5d
+			y: -4.5d
+			id: "356C1FE1E25B9391"
+			tasks: [
+				{
+					id: "6CB27205924466A7"
+					type: "item"
+					item: "industrialforegoing:block_breaker"
+				}
+				{
+					id: "407DF274798D8461"
+					type: "item"
+					item: "industrialforegoing:block_placer"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			id: "45039320705A4C84"
+			tasks: [{
+				id: "59281714CB99243C"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			id: "3A8852778A45FF74"
+			tasks: [{
+				id: "34A23884C9D07583"
+				type: "item"
+				item: "industrialforegoing:plant_fertilizer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			id: "7F1B4BE0977679FD"
+			tasks: [{
+				id: "6C91FA459EFC418A"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			id: "0703551CF3835D87"
+			tasks: [
+				{
+					id: "18D2423B4C41EDEB"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+				{
+					id: "622ED10B74BB6247"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+				{
+					id: "31A4604FE6EC4FF0"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "40630C48EB50FCA4"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+					count: 4
+				}
+				{
+					id: "4F4D567E646B6714"
+					type: "item"
+					item: "industrialforegoing:laser_lens10"
+				}
+			]
+		}
+		{
+			title: "It's a Pokeball ?"
+			x: 6.0d
+			y: -4.5d
+			id: "732DFB103FB436B9"
+			tasks: [
+				{
+					id: "442F57196197B027"
+					type: "item"
+					item: "industrialforegoing:mob_duplicator"
+				}
+				{
+					id: "6501C2CB473A3D3C"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+			]
+		}
 	]
 }
