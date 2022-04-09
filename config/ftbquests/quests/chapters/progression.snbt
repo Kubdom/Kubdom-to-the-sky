@@ -82,7 +82,7 @@
 		}
 		{
 			icon: "industrialforegoing:mob_imprisonment_tool"
-			x: -9.0d
+			x: -8.0d
 			y: -3.0d
 			dependencies: [
 				"3CC7915C55B7A453"
@@ -93,6 +93,21 @@
 				id: "755AD276B7B7ABD5"
 				type: "checkmark"
 				title: "Industrial Quests"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:air_compressor"
+			x: -9.0d
+			y: -3.0d
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "56BD1E5E80D2992E"
+			tasks: [{
+				id: "17521C5744EAEFF0"
+				type: "checkmark"
+				title: "Pneumaticcraft"
 			}]
 		}
 	]
