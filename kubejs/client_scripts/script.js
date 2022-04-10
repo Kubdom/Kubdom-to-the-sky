@@ -8,7 +8,9 @@ onEvent('jei.hide.items', event => {
 		/tconstruct:crafting_station/,
 		/tconstruct:tinker_station/,
 		/tconstruct:part_builder/,
-		/metalbarrels:iron_to_silver/
+		/metalbarrels:iron_to_silver/,
+		/compactcrafting:rescan_proxy/,
+		/compactcrafting:match_proxy/
 	])
 })
 

@@ -54,6 +54,10 @@ onEvent('recipes', event => {
         {id : 'bloodmagic:altar/apprenticebloodorb'},
         {id : 'bloodmagic:altar/magicianbloodorb'},
         {id : 'bloodmagic:altar/masterbloodorb'},
+        {id : 'compactcrafting:base'},
+        {id : 'compactcrafting:projector_dish'},
+
+
         // remove for unify
         { id: 'create:crushing/uranium_ore'},
         { id: 'create:pressing/iron_ingot' },
