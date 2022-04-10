@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d
+			x: -3.0d
 			y: -3.5d
 			dependencies: ["50B589FF64B49C35"]
 			size: 1.5d
@@ -21,8 +21,9 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.5d
 			y: -3.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "5C6A1563B9BA7B77"
 			tasks: [{
 				id: "21B732B089CACE9F"
@@ -31,8 +32,9 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: -3.5d
+			dependencies: ["661E021376FA6A81"]
 			id: "17365C2AA32B356A"
 			tasks: [{
 				id: "0A391ECD65E032D7"
@@ -41,8 +43,9 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -0.5d
 			y: -3.5d
+			dependencies: ["5C6A1563B9BA7B77"]
 			id: "661E021376FA6A81"
 			tasks: [{
 				id: "2417E48110756D0C"
@@ -54,6 +57,7 @@
 			title: "Plastic, it's fantastic"
 			x: 2.0d
 			y: -3.5d
+			dependencies: ["17365C2AA32B356A"]
 			size: 1.5d
 			id: "68B8B2758A9DD437"
 			tasks: [{
@@ -66,6 +70,7 @@
 		{
 			x: 3.5d
 			y: -3.5d
+			dependencies: ["68B8B2758A9DD437"]
 			id: "17D3FA0D0073DFB0"
 			tasks: [{
 				id: "1FE1D0A3AE624FAD"
@@ -74,8 +79,9 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: -3.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "534481FF0047C701"
 			tasks: [{
 				id: "1C19A9A8C117234F"
@@ -84,8 +90,9 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.5d
 			y: -3.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "0196C95B589ECC90"
 			tasks: [{
 				id: "38BF9ABD20BBF59F"
@@ -94,8 +101,9 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -4.0d
 			y: -4.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "28749B39D38CB59D"
 			tasks: [{
 				id: "49B334F2F501A955"
@@ -104,8 +112,9 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -5.0d
 			y: -4.5d
+			dependencies: ["28749B39D38CB59D"]
 			id: "4B5EE6728F10C220"
 			tasks: [{
 				id: "31B0D8124F58810E"
@@ -114,8 +123,9 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: -5.0d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "6F4F9C3BC22E6C6E"
 			tasks: [{
 				id: "78A971F72179B1F9"
@@ -125,8 +135,9 @@
 		}
 		{
 			title: "Pure Breeding"
-			x: -4.5d
+			x: -4.0d
 			y: -2.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "1C34CBF4B560CA7C"
 			tasks: [
 				{
@@ -148,8 +159,9 @@
 		}
 		{
 			title: "Fluid Handling"
-			x: -3.5d
+			x: -3.0d
 			y: -2.0d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "313D067C8B66DCFF"
 			tasks: [
 				{
@@ -165,8 +177,9 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -2.0d
 			y: -2.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "22CEB5ACC1916463"
 			tasks: [{
 				id: "4139A2C641619A4B"
@@ -175,8 +188,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["22CEB5ACC1916463"]
 			id: "375E9524ACF2EA68"
 			tasks: [{
 				id: "6E8B7D6B108117BD"
@@ -186,8 +200,9 @@
 		}
 		{
 			title: "Block Handling"
-			x: -2.5d
+			x: -2.0d
 			y: -4.5d
+			dependencies: ["7E3AEDBF913F86E4"]
 			id: "356C1FE1E25B9391"
 			tasks: [
 				{
@@ -205,6 +220,7 @@
 		{
 			x: 4.5d
 			y: -3.5d
+			dependencies: ["17D3FA0D0073DFB0"]
 			id: "45039320705A4C84"
 			tasks: [{
 				id: "59281714CB99243C"
@@ -215,6 +231,7 @@
 		{
 			x: 4.5d
 			y: -2.5d
+			dependencies: ["45039320705A4C84"]
 			id: "3A8852778A45FF74"
 			tasks: [{
 				id: "34A23884C9D07583"
@@ -223,8 +240,9 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 6.5d
 			y: -3.5d
+			dependencies: ["45039320705A4C84"]
 			id: "7F1B4BE0977679FD"
 			tasks: [{
 				id: "6C91FA459EFC418A"
@@ -233,8 +251,9 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: -4.5d
+			dependencies: ["7F1B4BE0977679FD"]
 			id: "0703551CF3835D87"
 			tasks: [
 				{
@@ -270,8 +289,9 @@
 		}
 		{
 			title: "It's a Pokeball ?"
-			x: 6.0d
+			x: 6.5d
 			y: -4.5d
+			dependencies: ["7F1B4BE0977679FD"]
 			id: "732DFB103FB436B9"
 			tasks: [
 				{
@@ -285,6 +305,292 @@
 					item: "industrialforegoing:mob_imprisonment_tool"
 				}
 			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "0D5F15AE2FF61668"
+			tasks: [{
+				id: "06A5ACCC88C18DDB"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "6ABB45E6EB0D7012"
+			tasks: [
+				{
+					id: "17D236C243BF61B9"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+				{
+					id: "1A2E8509F0A40F34"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "490C3543C6609745"
+			tasks: [{
+				id: "5323D172081A59E1"
+				type: "item"
+				item: "industrialforegoing:stasis_chamber"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["490C3543C6609745"]
+			id: "6ECD57A721ACDC8E"
+			tasks: [{
+				id: "17C33747A566268A"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			dependencies: [
+				"6ECD57A721ACDC8E"
+				"7F1B4BE0977679FD"
+			]
+			id: "26E947E2F4D3BC6F"
+			tasks: [{
+				id: "0F7EC12A118FBB6C"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			dependencies: ["26E947E2F4D3BC6F"]
+			id: "336C441069011C91"
+			tasks: [
+				{
+					id: "16A52C60E32FD6B0"
+					type: "item"
+					item: "industrialforegoing:supreme_black_hole_tank"
+				}
+				{
+					id: "6868E66C398C9F4C"
+					type: "item"
+					item: "industrialforegoing:supreme_black_hole_unit"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			shape: "octagon"
+			dependencies: [
+				"7D56BD83BEE00FF1"
+				"221C28179EC29813"
+				"690D17BA19D31809"
+				"49C4C05BC0ED5551"
+				"41AAF19465EF07EB"
+				"6F4A8A417B6AFF01"
+				"471B59A48588764C"
+				"6D0A759AD88EFD5A"
+				"6306574A42D7180D"
+				"2A1AD7F430E6EF67"
+				"395DEBC2D05D71AC"
+				"43BFF2992B5F4DB6"
+				"1FD961F00093EDA4"
+				"0B944F8CFA780FBE"
+				"072FDF57ECD64D37"
+				"76AA9D56FFAF0FC8"
+			]
+			size: 2.0d
+			id: "62D7294812917647"
+			tasks: [{
+				id: "5236207052EFC51D"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.5d
+			id: "76AA9D56FFAF0FC8"
+			tasks: [{
+				id: "43C6AE1D37BC47E9"
+				type: "item"
+				item: "industrialforegoing:mycelial_furnace"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["45039320705A4C84"]
+			id: "6F4A8A417B6AFF01"
+			tasks: [{
+				id: "1F73747EF652E7D7"
+				type: "item"
+				item: "industrialforegoing:mycelial_culinary"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "471B59A48588764C"
+			tasks: [{
+				id: "209B4671F2717E27"
+				type: "item"
+				item: "industrialforegoing:mycelial_slimey"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "6D0A759AD88EFD5A"
+			tasks: [{
+				id: "4A4962E1B73F8E78"
+				type: "item"
+				item: "industrialforegoing:mycelial_potion"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "6306574A42D7180D"
+			tasks: [{
+				id: "0084F897EA8D8A0B"
+				type: "item"
+				item: "industrialforegoing:mycelial_disenchantment"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			id: "2A1AD7F430E6EF67"
+			tasks: [{
+				id: "4843E1563A301A6C"
+				type: "item"
+				item: "industrialforegoing:mycelial_ender"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			id: "395DEBC2D05D71AC"
+			tasks: [{
+				id: "49C8DA8AF2285BEF"
+				type: "item"
+				item: "industrialforegoing:mycelial_explosive"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			id: "43BFF2992B5F4DB6"
+			tasks: [{
+				id: "17E330FB7A8D8990"
+				type: "item"
+				item: "industrialforegoing:mycelial_frosty"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			id: "1FD961F00093EDA4"
+			tasks: [{
+				id: "31717D79EE7F746B"
+				type: "item"
+				item: "industrialforegoing:mycelial_halitosis"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			id: "0B944F8CFA780FBE"
+			tasks: [{
+				id: "2CCCE9F690847E70"
+				type: "item"
+				item: "industrialforegoing:mycelial_magma"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.5d
+			id: "072FDF57ECD64D37"
+			tasks: [{
+				id: "5ECABD43D83FF3AA"
+				type: "item"
+				item: "industrialforegoing:mycelial_pink"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			id: "7D56BD83BEE00FF1"
+			tasks: [{
+				id: "551657F366C9A2D0"
+				type: "item"
+				item: "industrialforegoing:mycelial_netherstar"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -10.5d
+			hide_dependency_lines: true
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "49C4C05BC0ED5551"
+			tasks: [{
+				id: "2E83736AC4BC22FE"
+				type: "item"
+				item: "industrialforegoing:mycelial_death"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.5d
+			hide_dependency_lines: true
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "41AAF19465EF07EB"
+			tasks: [{
+				id: "55CDE69BDE97DA26"
+				type: "item"
+				item: "industrialforegoing:mycelial_rocket"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: ["7F1B4BE0977679FD"]
+			id: "690D17BA19D31809"
+			tasks: [{
+				id: "5B180B184E76A75D"
+				type: "item"
+				item: "industrialforegoing:mycelial_crimed"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: ["26E947E2F4D3BC6F"]
+			id: "221C28179EC29813"
+			tasks: [{
+				id: "5E6A61DCDEADBBE4"
+				type: "item"
+				item: "industrialforegoing:mycelial_meatallurgic"
+			}]
 		}
 	]
 }

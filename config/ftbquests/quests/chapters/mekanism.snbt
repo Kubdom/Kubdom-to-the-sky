@@ -1,0 +1,11 @@
+{
+	id: "599A3B7A6F9DEBA9"
+	group: ""
+	order_index: 8
+	filename: "mekanism"
+	title: "Mekanism"
+	icon: "mekanism:alloy_atomic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

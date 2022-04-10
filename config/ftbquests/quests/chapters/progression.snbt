@@ -96,6 +96,7 @@
 			}]
 		}
 		{
+			title: "PneumaticCraft Quests"
 			icon: "pneumaticcraft:air_compressor"
 			x: -9.0d
 			y: -3.0d
@@ -108,6 +109,21 @@
 				id: "17521C5744EAEFF0"
 				type: "checkmark"
 				title: "Pneumaticcraft"
+			}]
+		}
+		{
+			title: "Mekanism Quests"
+			x: -7.0d
+			y: -3.0d
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "737891BE5BC843A4"
+			tasks: [{
+				id: "19CF913B08B0F7BE"
+				type: "item"
+				item: "mekanism:alloy_atomic"
 			}]
 		}
 	]
