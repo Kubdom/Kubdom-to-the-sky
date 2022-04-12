@@ -18,8 +18,7 @@
     "feedItem": "bloodmagic:lavacrystal"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:nether"
+      "canSpawnInWorld": false
   },
   "TraitData": {}
   }

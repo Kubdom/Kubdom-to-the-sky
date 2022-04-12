@@ -19,8 +19,7 @@
     "feedItem": "minecraft:ender_pearl"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:end"
+      "canSpawnInWorld": false
   },
   "TraitData": {
     "hasTraits": true

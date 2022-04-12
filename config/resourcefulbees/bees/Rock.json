@@ -18,8 +18,7 @@
     "feedItem": "minecraft:cobblestone"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:plains"
+      "canSpawnInWorld": false
   },
   "TraitData": {}
   }

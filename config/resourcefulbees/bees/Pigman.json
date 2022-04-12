@@ -20,8 +20,7 @@
     "feedItem": "minecraft:glowstone_dust"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:nether"
+      "canSpawnInWorld": false
   },
   "TraitData": {
     "hasTraits": true

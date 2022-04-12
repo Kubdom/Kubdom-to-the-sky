@@ -17,9 +17,7 @@
     "feedItem": "tag:forge:dyes"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "biomeBlacklist": "tag:ocean"
+    "canSpawnInWorld": false
   },
   "TraitData": {}
 }

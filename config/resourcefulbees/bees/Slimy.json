@@ -22,8 +22,7 @@
     "feedItem": "minecraft:slime_ball"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:swamp"
+      "canSpawnInWorld": false
   },
   "TraitData": {
     "hasTraits": true
