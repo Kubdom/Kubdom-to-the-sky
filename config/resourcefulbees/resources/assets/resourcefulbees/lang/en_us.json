@@ -315,5 +315,8 @@
    "item.resourcefulbees.woody_honeycomb": "Woody Honeycomb",
    "entity.resourcefulbees.woody_bee": "Woody Woodbeeper",
    "item.resourcefulbees.woody_bee_spawn_egg": "Woody Woodbeeper Spawn Egg",
-   "trait.resourcefulbees.chaos": "Chaotic"
+   "trait.resourcefulbees.chaos": "Chaotic",
+   
+   "entity.resourcefulbees.sieve_bee": "Sieve Bee",
+   "item.resourcefulbees.sieve_bee_spawn_egg": "Sieve Bee Spawn Egg"
 }
