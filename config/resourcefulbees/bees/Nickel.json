@@ -20,8 +20,9 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "iron",
-    "parent2": "copper",
+    "parent1": "sieve",
+    "parent2": "gravel",
+    "breedChance": 0.1,
     "feedItem": "thermal:nickel_ingot"
   },
   "TraitData": {}

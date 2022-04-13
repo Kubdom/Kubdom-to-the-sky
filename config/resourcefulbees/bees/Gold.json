@@ -20,8 +20,9 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "gravel",
-    "parent2": "rock",
+    "parent1": "sieve",
+    "parent2": "gravel",
+    "breedChance": 0.2,
     "feedItem": "minecraft:gold_ingot"
   },
   "TraitData": {}

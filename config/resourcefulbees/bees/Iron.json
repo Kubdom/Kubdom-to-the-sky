@@ -20,8 +20,8 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "gravel",
-    "parent2": "rock",
+    "parent1": "sieve",
+    "parent2": "gravel",
     "feedItem": "minecraft:iron_ingot"
   },
   "TraitData": {}
