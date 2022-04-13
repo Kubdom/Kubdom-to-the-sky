@@ -13,7 +13,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "janoeo:zinc_ingot"
+    "mainOutput": "create:zinc_ingot"
   },
   "SpawnData": {
     "canSpawnInWorld": false
@@ -22,7 +22,7 @@
     "isBreedable": true,
     "parent1": "copper",
     "parent2": "silver",
-    "feedItem": "janoeo:zinc_ingot"
+    "feedItem": "create:zinc_ingot"
   },
   "TraitData": {}
 }

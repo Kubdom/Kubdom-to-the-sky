@@ -21,8 +21,9 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "gravel",
-    "parent2": "rgbee",
+    "parent1": "sieve",
+    "parent2": "sand",
+    "breedChance": 0.3,
     "feedItem": "minecraft:redstone"
   },
   "TraitData": {}
