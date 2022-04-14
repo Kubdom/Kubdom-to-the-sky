@@ -7,5 +7,106 @@
 	icon: "minecraft:honeycomb"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.625d
+			y: 0.0d
+			dependencies: ["5328E952B81A6525"]
+			size: 1.25d
+			id: "6D19280D9501D19E"
+			tasks: [{
+				id: "36A225637A76F6CA"
+				type: "item"
+				item: "resourcefulbees:sieve_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["6D19280D9501D19E"]
+			id: "5CFF473606275B20"
+			tasks: [{
+				id: "06EA281ABC482E93"
+				type: "item"
+				item: "resourcefulbees:gravel_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["6D19280D9501D19E"]
+			id: "26A76A8E143FFF71"
+			tasks: [{
+				id: "68809E72BCC36EF4"
+				type: "item"
+				item: "resourcefulbees:dirty_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["6D19280D9501D19E"]
+			id: "1336CD3BE67AB69E"
+			tasks: [{
+				id: "6578D82B5B5AC9CE"
+				type: "item"
+				item: "resourcefulbees:woody_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["6D19280D9501D19E"]
+			id: "3CACA96813541AFC"
+			tasks: [{
+				id: "7FF0812D38DE1E31"
+				type: "item"
+				item: "resourcefulbees:nether_bee_spawn_egg"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["6D19280D9501D19E"]
+			id: "17CA03EC984D223C"
+			tasks: [{
+				id: "03407379A40BFD37"
+				type: "item"
+				item: "resourcefulbees:rock_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["6D19280D9501D19E"]
+			id: "52C430441F54E9F5"
+			tasks: [{
+				id: "5280365F12793EDE"
+				type: "item"
+				item: "resourcefulbees:icy_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["6D19280D9501D19E"]
+			id: "2C864F0BCB03244E"
+			tasks: [{
+				id: "6043E64D11FBD2EA"
+				type: "item"
+				item: "resourcefulbees:clay_bee_spawn_egg"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["6D19280D9501D19E"]
+			id: "2679264E7346CC61"
+			tasks: [{
+				id: "1A8938C5BFF60087"
+				type: "item"
+				item: "resourcefulbees:slimy_bee_spawn_egg"
+			}]
+		}
+	]
 }
