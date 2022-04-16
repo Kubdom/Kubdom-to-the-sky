@@ -82,7 +82,10 @@
       "whitelist": true,
       "elements": [
         "minecraft:end_spike",
-        "minecraft:end_gateway"
+        "minecraft:end_gateway",
+        "minecraft:decorated",
+        "minecraft:flower",
+        "minecraft:random_patch"
       ]
     },
     
@@ -101,7 +104,9 @@
     "generationStructures": {
       "whitelist": true,
       "elements": [
-        "minecraft:fortress"
+        "minecraft:fortress",
+        "minecraft:bastion_remnant",
+        "minecraft:endcity"
       ]
     }
   },
