@@ -10,6 +10,7 @@ onEvent('item.registry', event => {
 	event.create('apprentice_blood_orb_shard').displayName('Apprentice Blood Orb Shard')
 	event.create('magician_blood_orb_shard').displayName('Magician Blood Orb Shard')
 	event.create('master_blood_orb_shard').displayName('Master Blood Orb Shard')
+	event.create('incomplete_ender_ingot').displayName('Incomplete Ender Ingot').tooltip("residue of incomplete sequenced assembly")
 	
 })
 
