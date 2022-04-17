@@ -57,6 +57,7 @@ onEvent('recipes', event => {
         { id : 'compactcrafting:base'},
         { id : 'compactcrafting:projector_dish'},
         { id : 'extendedcrafting:ender_ingot'},
+        { id: 'extendedcrafting:black_iron_ingot'},
 
 
         // remove for unify
