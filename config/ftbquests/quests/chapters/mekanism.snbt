@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: -0.75d
+			dependencies: ["737891BE5BC843A4"]
 			size: 1.5d
 			id: "08D35B09B58674D7"
 			tasks: [{
@@ -671,6 +672,7 @@
 		{
 			x: -5.5d
 			y: 2.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "62B5F39E86ED1F00"
 			tasks: [{
 				id: "7D43392BF9DC4D4E"
@@ -681,6 +683,7 @@
 		{
 			x: -4.5d
 			y: 2.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "6B875B3A1524F56C"
 			tasks: [{
 				id: "6DA7E8C3012617F8"
@@ -691,6 +694,7 @@
 		{
 			x: -6.0d
 			y: 1.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "676A26162D102193"
 			tasks: [{
 				id: "5980E9306A721BA5"
@@ -701,6 +705,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "6D049BC5CFD2F5A0"
 			tasks: [{
 				id: "5516852F8A32C3B4"
@@ -711,6 +716,7 @@
 		{
 			x: -4.0d
 			y: 1.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "6F91D96D3EE21002"
 			tasks: [{
 				id: "24300CB8FD956881"
@@ -721,6 +727,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "37457B5FB2CB3A69"
 			tasks: [{
 				id: "6908765CDB4F9D10"
@@ -731,6 +738,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "41874CCEF2439D42"
 			tasks: [{
 				id: "5C005B7FAA89A0D9"
@@ -741,6 +749,7 @@
 		{
 			x: -4.0d
 			y: 0.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "2CEC05E7F05A24E2"
 			tasks: [{
 				id: "015DDD5F73FBC80B"
@@ -751,6 +760,7 @@
 		{
 			x: -6.0d
 			y: -1.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "306921A9D76F80B0"
 			tasks: [{
 				id: "59B7D37DDF71A2EF"
@@ -761,6 +771,7 @@
 		{
 			x: -5.0d
 			y: -1.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "4BB30872A2D51EB7"
 			tasks: [{
 				id: "5C096CB5B2CBD913"
@@ -771,6 +782,7 @@
 		{
 			x: -4.0d
 			y: -1.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "0934DFA3FD0DEC72"
 			tasks: [{
 				id: "728C89541B4CAD45"
@@ -781,6 +793,7 @@
 		{
 			x: -6.0d
 			y: -2.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "41C32F83BA19D0EA"
 			tasks: [{
 				id: "4CA5535328A7A833"
@@ -791,6 +804,7 @@
 		{
 			x: -5.0d
 			y: -2.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "19C77C9BBFC9CBFE"
 			tasks: [{
 				id: "09259A6430CAD1CE"
@@ -801,6 +815,7 @@
 		{
 			x: -4.0d
 			y: -2.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "3B8697FBC2B0D8EF"
 			tasks: [{
 				id: "1D9FED1311A1E20B"
@@ -811,6 +826,7 @@
 		{
 			x: -6.0d
 			y: -3.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "4D4F6C35770202B1"
 			tasks: [{
 				id: "708201552B807073"
@@ -821,6 +837,7 @@
 		{
 			x: -5.0d
 			y: -3.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "556107BF3FCB8DD6"
 			tasks: [{
 				id: "63C5D57E56BC6C2B"
@@ -832,6 +849,7 @@
 		{
 			x: -4.0d
 			y: -3.0d
+			dependencies: ["44DA3CB85A66CFEB"]
 			id: "7079737B9CF6FDDE"
 			tasks: [{
 				id: "3FCA856DF6E17E6F"
@@ -920,6 +938,8 @@
 			title: "Thermal Evaporation"
 			x: 3.0d
 			y: 2.25d
+			hide_dependency_lines: true
+			dependencies: ["08D35B09B58674D7"]
 			size: 1.5d
 			id: "0A4ADCCA78116645"
 			tasks: [
@@ -1104,6 +1124,8 @@
 		{
 			x: 7.0d
 			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["08D35B09B58674D7"]
 			id: "79F9A0EF148DB868"
 			tasks: [
 				{
@@ -1175,6 +1197,8 @@
 		{
 			x: 9.0d
 			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["737891BE5BC843A4"]
 			id: "060189E570A9333A"
 			tasks: [{
 				id: "03E8E643C5F89B98"
@@ -1218,6 +1242,8 @@
 		{
 			x: 10.0d
 			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["737891BE5BC843A4"]
 			id: "7C1056CC0E614EB3"
 			tasks: [{
 				id: "76C42669466599A0"
@@ -1261,6 +1287,7 @@
 		{
 			x: 11.0d
 			y: 3.5d
+			dependencies: ["737891BE5BC843A4"]
 			id: "6571C20E9B5C0EE8"
 			tasks: [{
 				id: "2D4BCA2C2C999EA8"
@@ -1304,6 +1331,7 @@
 		{
 			x: 12.0d
 			y: 3.5d
+			dependencies: ["737891BE5BC843A4"]
 			id: "2F98C78A936D0BCC"
 			tasks: [
 				{
