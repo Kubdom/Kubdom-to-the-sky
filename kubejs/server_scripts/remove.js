@@ -58,6 +58,8 @@ onEvent('recipes', event => {
         { id : 'compactcrafting:projector_dish'},
         { id : 'extendedcrafting:ender_ingot'},
         { id: 'extendedcrafting:black_iron_ingot'},
+        { id: 'mekanism:steel_casing' },
+        { id: 'mekanism:metallurgic_infuser' },
 
 
         // remove for unify

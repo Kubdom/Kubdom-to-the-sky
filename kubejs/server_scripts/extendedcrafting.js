@@ -20,20 +20,19 @@ sequencedAssembly('extendedcrafting:ender_ingot', 'dustrial_decor:rusty_iron_ing
 
 
 
-  function sequencedAssembly(input, transition, ingredient1, ingredient2, ingredient3, output1, output2, nbLoop)
-  {
+  function sequencedAssembly(input, transition, ingredient1, ingredient2, ingredient3, output1, output2, nbLoop){
     event.custom({
       "type": "create:sequenced_assembly",
-  "ingredient": {
-    "item": input
-  },
-  "transitionalItem": {
-    "item": transition
-  },
-  "sequence": [
-    {
-      "type": "create:deploying",
-      "ingredients": [
+      "ingredient": {
+      "item": input
+      },
+      "transitionalItem": {
+      "item": transition
+      },
+      "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
         {
           "item": transition
         },
@@ -46,8 +45,8 @@ sequencedAssembly('extendedcrafting:ender_ingot', 'dustrial_decor:rusty_iron_ing
           "item": transition
         }
       ]
-    },
-    {
+      },
+      {
       "type": "create:deploying",
       "ingredients": [
         {
@@ -62,8 +61,8 @@ sequencedAssembly('extendedcrafting:ender_ingot', 'dustrial_decor:rusty_iron_ing
           "item": transition
         }
       ]
-    },
-    {
+      },
+      {
       "type": "create:deploying",
       "ingredients": [
         {
@@ -78,9 +77,9 @@ sequencedAssembly('extendedcrafting:ender_ingot', 'dustrial_decor:rusty_iron_ing
           "item": transition
         }
       ]
-    }
-  ],
-  "results": [
+      }
+    ],
+    "results": [
     {
       "item": output1,
       "chance": 120.0
@@ -89,8 +88,8 @@ sequencedAssembly('extendedcrafting:ender_ingot', 'dustrial_decor:rusty_iron_ing
       "item": output2,
       "chance": 8.0
     }
-  ],
-  "loops": nbLoop
+    ],
+    "loops": nbLoop
     })
   }
       
