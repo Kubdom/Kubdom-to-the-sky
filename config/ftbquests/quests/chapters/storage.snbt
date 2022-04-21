@@ -254,5 +254,35 @@
 				item: "compactmachines:machine_maximum"
 			}]
 		}
+		{
+			title: "The Undergarden Dimension"
+			x: 5.0d
+			y: -2.5d
+			id: "54535877211A1A29"
+			tasks: [{
+				id: "30040BA30C82C347"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			title: "Lost City Dimension"
+			x: 6.5d
+			y: -2.5d
+			id: "7E9DA143B238BB4B"
+			tasks: [
+				{
+					id: "0414CDF18131D6E6"
+					type: "item"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "4CAB28B25E049560"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 6L
+				}
+			]
+		}
 	]
 }

@@ -28,9 +28,23 @@ event.shaped('mekanism:metallurgic_infuser', [
     'RSR',
     'IFI'
   ], {
-    I: 'minecraft:iron_ingot',
+    I: 'mekanism:ingot_steel',
     F: 'minecraft:furnace',
     R: 'minecraft:redstone',
+    S: 'mekanism:steel_casing'
+})
+
+
+// Heat Generator
+event.shaped(Item.of('mekanismgenerators:heat_generator', '{mekData:{}}'),[
+  'III',
+  'PSP',
+  'CFC'
+  ], {
+    I: 'mekanism:ingot_steel',
+    F: 'minecraft:furnace',
+    P: '#minecraft:planks',
+    C: 'thermal:copper_ingot',
     S: 'mekanism:steel_casing'
 })
 

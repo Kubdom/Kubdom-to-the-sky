@@ -60,6 +60,7 @@ onEvent('recipes', event => {
         { id: 'extendedcrafting:black_iron_ingot'},
         { id: 'mekanism:steel_casing' },
         { id: 'mekanism:metallurgic_infuser' },
+        { id: 'mekanismgenerators:generator/heat' },
 
 
         // remove for unify
