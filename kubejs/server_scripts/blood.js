@@ -80,8 +80,9 @@ onEvent('recipes', event => {
     altar('kubejs:alpha_ingot', 'bloodmagic:blankslate', 0, 1000, 5, 5)
     altar('eidolon:arcane_gold_ingot', 'kubejs:alpha_ingot', 0, 1000, 5, 5)
     altar('bloodmagic:weakbloodorb', 'kubejs:apprentice_blood_orb_shard', 1, 5000, 5, 5)
-    altar('bloodmagic:apprenticebloodorb', 'bloodmagic:magicianbloodorb', 2, 25000, 20, 20) 
-    altar('bloodmagic:magicianbloodorb', 'bloodmagic:masterbloodorb', 3, 40000, 30, 50) 
+    altar('bloodmagic:apprenticebloodorb', 'kubejs:magician_blood_orb_shard', 2, 25000, 20, 20)
+    altar('bloodmagic:magicianbloodorb', 'kubejs:master_blood_orb_shard', 2, 25000, 20, 20) 
+    // altar('bloodmagic:magicianbloodorb', 'bloodmagic:masterbloodorb', 3, 40000, 30, 50) 
 
     alchemyTable(["forge:dusts/redstone", 'eidolon:enchanted_ash', "forge:gunpowder", "minecraft:coals"], "bloodmagic:arcaneashes", 500, 200, 1)
     alchemyArray("bloodmagic:reagentbinding", "eidolon:warlock_boots", "bloodmagic:livingboots")
