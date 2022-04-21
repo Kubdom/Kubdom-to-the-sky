@@ -126,5 +126,20 @@
 				item: "mekanism:alloy_atomic"
 			}]
 		}
+		{
+			icon: "minecraft:honeycomb"
+			x: -13.0d
+			y: -2.0d
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
+			id: "37E6EE8E1562CC39"
+			tasks: [{
+				id: "40C3AE1089B5DB6D"
+				type: "checkmark"
+				title: "Bees Quests"
+			}]
+		}
 	]
 }

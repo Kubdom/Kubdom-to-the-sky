@@ -16,7 +16,7 @@
     "Nether": {
     
       // Should nether generate as in default world type? [default: false]
-      "Default": false
+      "Default": true
     },
     
     "Overworld": {
@@ -82,10 +82,7 @@
       "whitelist": true,
       "elements": [
         "minecraft:end_spike",
-        "minecraft:end_gateway",
-        "minecraft:decorated",
-        "minecraft:flower",
-        "minecraft:random_patch"
+        "minecraft:end_gateway"
       ]
     },
     

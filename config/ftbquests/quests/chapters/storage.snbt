@@ -161,13 +161,13 @@
 		}
 		{
 			title: "Just Another Void Dim"
-			x: -0.5d
-			y: -8.0d
+			x: 3.5d
+			y: -2.5d
 			id: "57FD741134B4BD8E"
 			tasks: [{
-				id: "5BE000C0F5794603"
+				id: "0C518BB9A0638CFC"
 				type: "item"
-				item: "quark:basalt_bricks"
+				item: "javd:portal_block"
 			}]
 		}
 		{

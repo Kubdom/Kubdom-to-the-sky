@@ -164,9 +164,22 @@ event.shapeless('create:iron_sheet','thermal:iron_plate')
 
 
 
+// Rainbow Wool
+event.shaped('earthmobsmod:rainbow_wool', [
+  'ROY',
+  'LBP',
+  ' W '
+], {
+  R: '#forge:dyes/red',
+  O: '#forge:dyes/orange',
+  Y: '#forge:dyes/yellow',
+  L: '#forge:dyes/lime',
+  B: '#forge:dyes/blue',
+  P: '#forge:dyes/purple',
+  W: 'minecraft:white_wool',
+}
 
-
-
+)
 
 
 

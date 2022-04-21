@@ -51,15 +51,18 @@ onEvent('recipes', event => {
         { id: 'cyclic:disenchanter'},
         { id: 'industrialforegoing:machine_frame_pity'},
         { id: 'minecraft:bucket'},
-        {id : 'bloodmagic:altar/apprenticebloodorb'},
-        {id : 'bloodmagic:altar/magicianbloodorb'},
-        {id : 'bloodmagic:altar/masterbloodorb'},
-        {id : 'compactcrafting:base'},
-        {id : 'compactcrafting:projector_dish'},
+        { id : 'bloodmagic:altar/apprenticebloodorb'},
+        { id : 'bloodmagic:altar/magicianbloodorb'},
+        { id : 'bloodmagic:altar/masterbloodorb'},
+        { id : 'compactcrafting:base'},
+        { id : 'compactcrafting:projector_dish'},
+        { id : 'extendedcrafting:ender_ingot'},
+        { id: 'extendedcrafting:black_iron_ingot'},
+        { id: 'mekanism:steel_casing' },
+        { id: 'mekanism:metallurgic_infuser' },
 
 
         // remove for unify
-        { id: 'create:crushing/uranium_ore'},
         { id: 'create:pressing/iron_ingot' },
         { id: 'immersiveengineering:metalpress/iron_plate'},
         
