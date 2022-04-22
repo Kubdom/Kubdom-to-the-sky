@@ -1,0 +1,45 @@
+{
+    "type": "compactcrafting:miniaturization","recipeSize": 9,"layers":[
+    {"type": "compactcrafting:mixed", 
+    "pattern": [
+        ["I", "I", "S", "I", "I"],
+        ["I", "I", "S", "I", "I"],
+        ["S", "S", "S", "S", "S"],
+        ["I", "I", "S", "I", "I"],
+        ["I", "I", "S", "I", "I"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["I", "I", "S", "I", "I"],
+        ["I", "R", "R", "R", "I"],
+        ["S", "R", "R", "R", "S"],
+        ["I", "R", "R", "R", "I"],
+        ["I", "I", "S", "I", "I"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["I", "I", "S", "I", "I"],
+        ["I", "R", "R", "R", "I"],
+        ["S", "R", "A", "R", "S"],
+        ["I", "R", "R", "R", "I"],
+        ["I", "I", "S", "I", "I"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["I", "I", "S", "I", "I"],
+        ["I", "R", "R", "R", "I"],
+        ["S", "R", "R", "R", "S"],
+        ["I", "R", "R", "R", "I"],
+        ["I", "I", "S", "I", "I"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["I", "I", "S", "I", "I"],
+        ["I", "I", "S", "I", "I"],
+        ["S", "S", "S", "S", "S"],
+        ["I", "I", "S", "I", "I"],
+        ["I", "I", "S", "I", "I"]]}],
+    "catalyst": {"id": "bigreactors:yellorium_ingot","Count": 1},
+    "components": {
+        "I": {"type": "compactcrafting:block","block": "minecraft:iron_block"}, 
+        "S": {"type": "compactcrafting:block","block": "mekanism:block_steel"}, 
+        "R": {"type": "compactcrafting:block","block": "compressium:redstone_1"},
+        "A": {"type": "compactcrafting:block","block": "compressium:sand_1"}}, 
+    "outputs": [{"id": "bigreactors:basic_reactorcasing","Count": 4}]
+}

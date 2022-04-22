@@ -61,6 +61,7 @@ onEvent('recipes', event => {
         { id: 'mekanism:steel_casing' },
         { id: 'mekanism:metallurgic_infuser' },
         { id: 'mekanismgenerators:generator/heat' },
+        { id: 'bigreactors:reactor/basic/casing' },
 
 
         // remove for unify
