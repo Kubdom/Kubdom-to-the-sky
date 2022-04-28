@@ -21,7 +21,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "gravel",
-    "parent2": "rock",
+    "parent2": "lava",
     "feedItem": "mekanism:ingot_uranium"
   },
   "TraitData": {}

@@ -16,7 +16,7 @@
     "Nether": {
     
       // Should nether generate as in default world type? [default: false]
-      "Default": true
+      "Default": false
     },
     
     "Overworld": {
@@ -79,10 +79,12 @@
     // You can also add regex rules. These are objects with two keys: `allow` - a boolean that specifies whether this
     // is a whitelist or blacklist rule and `regex` - which is a regex that must match the resource location.
     "generationFeatures": {
-      "whitelist": true,
+      "whitelist": false,
       "elements": [
         "minecraft:end_spike",
-        "minecraft:end_gateway"
+        "minecraft:end_gateway",
+        "tconstruct:slime_tree",
+        "tconstruct:slime_fungus"
       ]
     },
     
@@ -99,11 +101,13 @@
     // You can also add regex rules. These are objects with two keys: `allow` - a boolean that specifies whether this
     // is a whitelist or blacklist rule and `regex` - which is a regex that must match the resource location.
     "generationStructures": {
-      "whitelist": true,
+      "whitelist": false,
       "elements": [
         "minecraft:fortress",
         "minecraft:bastion_remnant",
-        "minecraft:endcity"
+        "minecraft:endcity",
+        "tconstruct:earth_slime_island",
+        "tconstruct:overworld_slime_island"
       ]
     }
   },

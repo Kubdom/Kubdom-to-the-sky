@@ -17,11 +17,13 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "sieve",
+    "parent2": "dirty",
+    "breedChance": 0.1,
     "feedItem": "minecraft:rotten_flesh"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:wasteland"
+      "canSpawnInWorld": false
   },
   "TraitData": {
     "hasTraits": true

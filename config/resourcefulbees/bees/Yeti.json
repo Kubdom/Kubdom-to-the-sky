@@ -1,0 +1,28 @@
+{
+    "flower": "minecraft:snow_block",
+    "hasHoneycomb": true,
+    "maxTimeInHive": 600, 
+    "baseLayerTexture": "mob/yeti_bee",
+    "ColorData": {
+        "isBeeColored": false,
+        "honeycombColor": "#FFFFFF"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "parent1": "kitten",
+      "parent2": "icy",
+      "feedItem": "minecraft:snowball"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": false
+    },
+    "TraitData": {
+      "hasTraits": true
+    }
+  }

@@ -17,6 +17,8 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "sieve",
+    "parent2": "nether",
     "feedItem": "minecraft:glowstone_dust"
   },
   "SpawnData": {

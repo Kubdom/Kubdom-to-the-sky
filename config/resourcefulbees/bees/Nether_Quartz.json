@@ -21,7 +21,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "parent1": "gravel",
+    "parent1": "sieve",
     "parent2": "nether",
     "feedItem": "minecraft:quartz"
   },

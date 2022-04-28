@@ -22,7 +22,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "sieve",
-    "parent2": "sand",
+    "parent2": "sandy",
     "breedChance": 0.3,
     "feedItem": "minecraft:redstone"
   },

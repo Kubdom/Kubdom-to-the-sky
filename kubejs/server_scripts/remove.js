@@ -62,6 +62,8 @@ onEvent('recipes', event => {
         { id: 'mekanism:metallurgic_infuser' },
         { id: 'mekanismgenerators:generator/heat' },
         { id: 'bigreactors:reactor/basic/casing' },
+        { id: 'ctiers:compressium/centrifuge_controller_tier_creative' },
+        { id: 'ctiers:compressium/centrifuge_casing_tier_creative' },
 
 
         // remove for unify

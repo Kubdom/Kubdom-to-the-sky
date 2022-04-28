@@ -16,11 +16,13 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "sieve",
+    "parent2": "dirty",
+    "breedChance": 0.1,
     "feedItem": "minecraft:bone"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:plains"
+      "canSpawnInWorld": false
   },
   "TraitData": {}
 }

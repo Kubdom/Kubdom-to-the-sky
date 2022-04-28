@@ -19,11 +19,12 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "pigman",
+    "parent2": "aquamarine",
     "feedItem": "minecraft:prismarine_crystals"
   },
   "SpawnData": {
-      "canSpawnInWorld": true,
-      "biomeWhitelist": "tag:ocean"
+      "canSpawnInWorld": false
   },
   "TraitData": {}
   }

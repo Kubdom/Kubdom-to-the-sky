@@ -16,6 +16,9 @@
   },
   "BreedData": {
     "isBreedable": true,
+    "parent1": "slimy",
+    "parent2": "starmetal",
+    "breedChance": 0.04,
     "feedItem": "minecraft:ender_pearl"
   },
   "SpawnData": {

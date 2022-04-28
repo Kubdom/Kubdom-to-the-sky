@@ -21,7 +21,8 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "gravel",
-    "parent2": "rock",
+    "parent2": "sieve",
+    "breedChance": 0.1,
     "feedItem": "thermal:tin_ingot"
   },
   "TraitData": {}

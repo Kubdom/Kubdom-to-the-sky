@@ -20,7 +20,7 @@
   "BreedData": {
     "isBreedable": true,
     "parent1": "ender",
-    "parent2": "platinum",
+    "parent2": "diamond",
     "feedItem": "thermal:enderium_ingot"
   },
   "TraitData": {}
