@@ -11,6 +11,8 @@ onEvent('recipes', event => {
     CraftBasicBee('minecraft:end_stone', 'resourcefulbees:end_bee_spawn_egg')
     CraftBasicBee('minecraft:packed_ice', 'resourcefulbees:icy_bee_spawn_egg')
     CraftBasicBee('minecraft:gravel', 'resourcefulbees:gravel_bee_spawn_egg')
+    CraftBasicBee('bloodmagic:lavacrystal', 'resourcefulbees:lava_bee_spawn_egg')
+    CraftBasicBee('minecraft:bone_block', 'resourcefulbees:skeleton_bee_spawn_egg')
 
 
     // Craft Tier1 Beehive
