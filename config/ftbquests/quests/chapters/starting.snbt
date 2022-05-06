@@ -11,7 +11,7 @@
 		{
 			x: -4.5d
 			y: -8.0d
-			shape: "circle"
+			shape: "gear"
 			dependencies: ["5ECDBAF6B9C0E5A4"]
 			id: "45FD0E5391EA9DFA"
 			tasks: [{

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "EIE",
+      "ICI",
+      "EIE"
+    ],
+    "key": {
+      "E": {
+        "item": "thermal:electrum_plate"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "thermal:enderium_coin"
+      }
+    },
+    "result": {
+      "item": "undergarden:catalyst"
+    }
+  }

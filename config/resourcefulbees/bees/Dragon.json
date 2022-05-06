@@ -29,7 +29,7 @@
     "isBreedable": true,
     "parent1": "ender",
     "parent2": "wither",
-    "feedItem": "forbidden_arcanus:dragon_scale"
+    "feedItem": "quark:dragon_scale"
   },
   "TraitData": {
     "hasTraits": true
