@@ -1,0 +1,470 @@
+{
+	id: "169B8F497DA47895"
+	group: ""
+	order_index: 10
+	filename: "eidolon"
+	title: "Eidolon"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "409E9E337AF86E50"
+			tasks: [{
+				id: "6353DE96DF8B79DC"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 32L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["409E9E337AF86E50"]
+			size: 1.5d
+			id: "4E6E17BD6480973A"
+			tasks: [{
+				id: "1C9FB869B7C7B59C"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["4E6E17BD6480973A"]
+			id: "222BAD1E327D6142"
+			tasks: [{
+				id: "2D9866339C925521"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["4E6E17BD6480973A"]
+			id: "183D05011AD1C070"
+			tasks: [{
+				id: "25CF2648D8AF04A4"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["409E9E337AF86E50"]
+			id: "3610F9FD81429771"
+			tasks: [{
+				id: "263BB01FA055C22A"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["409E9E337AF86E50"]
+			id: "66690FB219133842"
+			tasks: [{
+				id: "25FF0749282BF3A2"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["409E9E337AF86E50"]
+			id: "3CD5610AA476BB0D"
+			tasks: [{
+				id: "52CE4B472A29F1DB"
+				type: "item"
+				item: "eidolon:plinth"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 0.0d
+			dependencies: ["409E9E337AF86E50"]
+			size: 1.5d
+			id: "4306EAA258120F66"
+			tasks: [{
+				id: "61DF25E4266A0AE8"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 0.0d
+			dependencies: ["409E9E337AF86E50"]
+			size: 1.5d
+			id: "148A1B551F6FA7F4"
+			tasks: [{
+				id: "5235737C9B033A53"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["148A1B551F6FA7F4"]
+			id: "336E567F17FC9B68"
+			tasks: [
+				{
+					id: "613B769768024E7C"
+					type: "item"
+					item: "eidolon:death_essence"
+				}
+				{
+					id: "698EFE49DA46752E"
+					type: "item"
+					item: "eidolon:crimson_essence"
+				}
+				{
+					id: "6BAD62AC99F52292"
+					type: "item"
+					item: "eidolon:fungus_sprouts"
+				}
+				{
+					id: "618A261CEA5FEB54"
+					type: "item"
+					item: "eidolon:warped_sprouts"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["148A1B551F6FA7F4"]
+			id: "5F2DD461D083809A"
+			tasks: [{
+				id: "10CF2B34DD5B2E6E"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["148A1B551F6FA7F4"]
+			id: "0A1752D6F23EB3E6"
+			tasks: [{
+				id: "5C16A4404D7116FA"
+				type: "item"
+				item: "eidolon:candlestick"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["409E9E337AF86E50"]
+			id: "631ACD4ADBD0342F"
+			tasks: [{
+				id: "38142EBA9D063D95"
+				type: "item"
+				item: "eidolon:straw_effigy"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: [
+				"409E9E337AF86E50"
+				"7534812552C350A0"
+			]
+			id: "459F412F1C57117D"
+			tasks: [{
+				id: "1FB5C9F396761620"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["148A1B551F6FA7F4"]
+			id: "7534812552C350A0"
+			tasks: [{
+				id: "4ECD905DAB7D8430"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["459F412F1C57117D"]
+			id: "289377BA6AA97466"
+			tasks: [
+				{
+					id: "01488D4017B1F5F9"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0636829ECE969E01"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "376AD1FC21B324F7"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["289377BA6AA97466"]
+			id: "50BD9DF76096FC88"
+			tasks: [{
+				id: "3EED1FB8A7307521"
+				type: "item"
+				item: "eidolon:pewter_inlay"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["50BD9DF76096FC88"]
+			size: 1.5d
+			id: "05C9EAA7E480941F"
+			tasks: [{
+				id: "08DA20AFDD4C02B1"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["409E9E337AF86E50"]
+			id: "5A810E20408504C7"
+			tasks: [{
+				id: "0462F111F817255B"
+				type: "item"
+				item: "eidolon:wooden_altar"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["459F412F1C57117D"]
+			id: "64484E0C20CB6077"
+			tasks: [{
+				id: "4824129278343139"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["409E9E337AF86E50"]
+			id: "10CDDB451EB7705B"
+			tasks: [
+				{
+					id: "009E7F73462814BB"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+				}
+				{
+					id: "258AE562E6B72EFC"
+					type: "item"
+					item: "eidolon:wraith_heart"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["409E9E337AF86E50"]
+			id: "7AAD35B7F98AE764"
+			tasks: [{
+				id: "0838217D285A454F"
+				type: "item"
+				item: "eidolon:zombie_heart"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["05C9EAA7E480941F"]
+			id: "0DCC9F880CB781FC"
+			tasks: [{
+				id: "044548B617B984AB"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["4306EAA258120F66"]
+			id: "42F763D304255EC9"
+			tasks: [{
+				id: "5581A8D6419F90C7"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["4306EAA258120F66"]
+			id: "3E75A349DD527F0F"
+			tasks: [{
+				id: "1B2D2B1D00F32CA4"
+				type: "item"
+				item: "eidolon:unholy_effigy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["4306EAA258120F66"]
+			id: "5293EEB8838F5055"
+			tasks: [{
+				id: "1675CCB316B46527"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["4306EAA258120F66"]
+			id: "33B2E2CF567FDFD7"
+			tasks: [{
+				id: "658259ACD9DC9660"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["33B2E2CF567FDFD7"]
+			id: "5F1AFF1B50EBF53A"
+			tasks: [{
+				id: "31DC5BBDC445F998"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["4306EAA258120F66"]
+			id: "7B3A84F3BBB836BE"
+			tasks: [{
+				id: "0160B8BCB9D2881C"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["7B3A84F3BBB836BE"]
+			id: "077A8DF4D363D931"
+			tasks: [{
+				id: "425A3CD9FF3ABECC"
+				type: "item"
+				item: "eidolon:stone_altar"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["4306EAA258120F66"]
+			id: "6C56EF5FC3A6895E"
+			tasks: [{
+				id: "18E10CA008698E62"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["6C56EF5FC3A6895E"]
+			id: "65ECD32B5C0FB97C"
+			tasks: [{
+				id: "28CDBAA9EBD38483"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["05C9EAA7E480941F"]
+			id: "644888481CAB9736"
+			tasks: [{
+				id: "543E7D24058BF987"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
