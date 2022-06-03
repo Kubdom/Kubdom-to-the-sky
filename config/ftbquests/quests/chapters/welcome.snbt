@@ -21,6 +21,7 @@
 			}]
 		}
 		{
+			icon: "kubejs:ftbteams_logo"
 			x: -0.5d
 			y: -1.0d
 			shape: "gear"

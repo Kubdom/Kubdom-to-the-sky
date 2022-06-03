@@ -65,6 +65,7 @@ onEvent('recipes', event => {
         { id: 'ctiers:compressium/centrifuge_controller_tier_creative' },
         { id: 'ctiers:compressium/centrifuge_casing_tier_creative' },
         { id: 'thermal:machine_frame' },
+        { id: 'bigreactors:reactor/reinforced/casing' },
 
 
         // remove for unify

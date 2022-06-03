@@ -145,6 +145,10 @@
 			icon: "thermal:lightning_charge"
 			x: -6.0d
 			y: -3.0d
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
 			id: "095667ECC35562E4"
 			tasks: [{
 				id: "596740F6A54430F7"
@@ -156,7 +160,10 @@
 			icon: "eidolon:unholy_symbol"
 			x: -11.0d
 			y: -2.0d
-			dependencies: ["3CC7915C55B7A453"]
+			dependencies: [
+				"3CC7915C55B7A453"
+				"1DAE815F40B7C0D7"
+			]
 			id: "1B436E5BCA865FA8"
 			tasks: [{
 				id: "5ED90916194A0B2D"

@@ -9,6 +9,7 @@ onEvent('item.registry', event => {
 	event.create('magician_blood_orb_shard').displayName('Magician Blood Orb Shard')
 	event.create('master_blood_orb_shard').displayName('Master Blood Orb Shard')
 	event.create('incomplete_ender_ingot').displayName('Incomplete Ender Ingot').tooltip("residue of incomplete sequenced assembly")
+	event.create('ftbteams_logo').displayName('FTB Teams Logo')
 	
 })
 

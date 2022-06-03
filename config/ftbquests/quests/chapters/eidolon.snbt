@@ -1,7 +1,7 @@
 {
 	id: "169B8F497DA47895"
 	group: ""
-	order_index: 10
+	order_index: 11
 	filename: "eidolon"
 	title: "Eidolon"
 	icon: "eidolon:unholy_symbol"
@@ -11,6 +11,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			dependencies: ["1B436E5BCA865FA8"]
 			id: "409E9E337AF86E50"
 			tasks: [{
 				id: "6353DE96DF8B79DC"
